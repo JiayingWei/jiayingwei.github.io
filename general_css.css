@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS for the template page */
+
+body {background-color:#FFFFFF;
+}
+
+a {
+	color:#00F;
+	text-decoration: none;
+}
+a:hover {
+	color:#090;
+	text-decoration:none;
+	}
+a:visited {
+	color:#00F;
+	text-decoration:none;
+	}
+
+h3{
+	font-size: 42px;
+	margin-top: 0px;
+	margin-bottom:15px;
+	font-weight: bolder;
+}
+
+#container{
+	margin: 50px auto 50px auto;
+	width: 1000px;
+	margin-left: auto ;
+  	margin-right: auto ;
+}
+
+#header {
+	width: 720px;
+	height: 150px;
+	margin-left: auto ;
+  	margin-right: auto ;
+}
+
+#logo {
+	float: left;
+	height: 200px;
+	width: 122px;
+	margin-right: 10px;
+	background-image: url(images/chicken_logo.png);
+	background-size: 122px 150px;
+	background-repeat: no-repeat;
+}
+
+#title {
+	height: 200px;
+	width: 588px;
+	float: left;
+	background-image: url(images/jiayings_space.png);
+	background-size: 588px 150px;
+	background-repeat: no-repeat;
+}
+
+#sidebar {
+	float: left;
+	width: 250px;
+	margin-top:10px;
+}
+
+#content {
+	float: right;
+	width: 750px;
+}
+
+#text {
+	margin: 15px;
+	float: left;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	color: #000;
+}
+
+#credit {
+	height: 50px;
+	width: 1000px;
+	float : left;
+	background-image: url(images/credits.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 400px;
+	margin-top: 30px;
+}
+
+/*buttons go here*/
+
+ul#buttons {
+	list-style: none;
+	float: left;
+}
+
+ul#buttons li{
+	display: inline;
+	width: 250px;
+	height: 60px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+ul#buttons li a {
+	height:60px;
+	width: 250px;
+	float:left;
+	text-indent:-9999px;
+	text-decoration:none
+}
+
+ul#buttons  li a span {
+	float:left;
+	display:block
+}
+
+ul#buttons li#bhome a{
+	background-image: url(images/buttons/home.png);
+	background-repeat: no-repeat;
+}
+
+ul#buttons li#bhome a:hover {
+	background-position: 0px -60px;
+}
+
+ul#buttons li#babout a{
+	background-image: url(images/buttons/about_me.png);
+	background-repeat: no-repeat;
+}
+
+ul#buttons li#babout a:hover {
+	background-position: 0px -60px;
+}
+
+ul#buttons li#byearone a{
+	background-image: url(images/buttons/year_one.png);
+	background-repeat: no-repeat;
+}
+
+ul#buttons li#byearone a:hover {
+	background-position: 0px -60px;
+}
+
+ul#buttons li#bartwork a{
+	background-image: url(images/buttons/artwork.png);
+	background-repeat: no-repeat;
+}
+
+ul#buttons li#bartwork a:hover {
+	background-position: 0px -60px;
+}
+
+ul#buttons li#bcontact a{
+	background-image: url(images/buttons/contact.png);
+	background-repeat: no-repeat;
+}
+
+ul#buttons li#bcontact a:hover {
+	background-position: 0px -60px;
+}
+
+/*buttons end here*/
+
+/*for the arts*/
+
+ul#artwork{
+	list-style: none;
+	float: left;
+}
+
+ul#artwork li {
+	height: 200px;
+	width: 200px;
+	display: block;
+	float: left;
+	margin: 10px;
+	overflow: hidden;
+}
+
+ul#artwork li img{
+	width: 100%;
+	height: auto;
+}
+
+ul#artwork li a:active{
+position:fixed;
+top:15%;
+left:32%;
+}
+
+ul#artwork li img a:active{
+position:relative;
+}
+
+
+
+/*general aligning stuff starts here*/
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.pmargins{
+	margin:15px;
+}
+
+.margins{
+	margin:30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.centertext{
+	text-align:center;
+}
+
+.width400{
+	width: 400px;
+	margin-top:25px;
+}
