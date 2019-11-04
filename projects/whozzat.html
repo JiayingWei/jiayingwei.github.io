@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Whozzat App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body>
+
+<header>
+
+		<div class='logo'>	<a href="/index.html"><span class='name'>Jiaying Wei</span> <span class='role'>Interation Designer</span>	</a></div>
+
+
+	<nav>
+		<a href="/assets/img/Resume.pdf" target="_blank">Resume</a>
+		<a href="/index.html#3rdPage">Contact</a>
+		<a href="/index.html#secondPage">Portfolio</a>
+		<a href="/index.html#firstPage">About</a>
+	</nav>
+</header>
+
+<div class= "menu-wrapper">
+	<ul class = "menu">
+	<li class = "item">
+		<img src = "/assets/img/whozzat/Camera.png" alt="Whozzat app screenshot - Camera viewfinder with girl singing with guitar" class="screenshot" onclick="clickImg(this)">
+		<p>Snap a picture to find out who's performing</p>
+	</li><li class = "item">
+		<img src = "/assets/img/whozzat/Camera - Snapped.png" alt="Whozzat app screenshot - girl singing with guitar overlayed with UI interface for tipping" class="screenshot" onclick="clickImg(this)">
+		<p>Tip the busker, check out their profile, or save the image</p>
+	</li><li class = "item">
+		<img src = "/assets/img/whozzat/Camera - share.png" alt="Whozzat app screenshot - dialog box with options to save to social media and share photo with the busker" class="screenshot" onclick="clickImg(this)">
+		<p>Saving or sharing the picture will prompt user to share photo with busker</p>
+	</li><li class = "item">
+		<img src = "/assets/img/whozzat/Profile.png" alt="Whozzat app screenshot - busker's profile displaying social media, upcoming shows, and follow option" class="screenshot" onclick="clickImg(this)">
+		<p>Visit their profile &amp; to follow their upcoming shows</p>
+	</li><li class = "item">
+		<img src = "/assets/img/whozzat/Performances.png" alt="Whozzat app screenshot - newsfeed of upcoming shows from buskers the user has followed" class="screenshot" onclick="clickImg(this)">
+		<p>Easily browse through upcoming events of buskers you follow</p>
+	</li><li class = "item">
+		<img src = "/assets/img/whozzat/Discover.png" alt="Whozzat app screenshot - currated discover cards 1. Top subway buskers 2. Events on friday night " class="screenshot" onclick="clickImg(this)">
+		<p>Check out the discover page to find events &amp; buskers to follow</p>
+	</li>
+	</ul>
+
+	<div class="paddles">
+		<button class="button left-paddle paddle hidden "></button>
+		<button class="button right-paddle paddle "></button>
+	</div>
+
+</div>
+<div id= "appDescription">
+	<div class="container">
+	<h3>Leveraging design to help street performers recover lost photos &amp; videos.</h3>
+	<p>There are thousands of photos &amp; videos taken of buskers (also known as street performers) every single day, but most of those files stay on the audience’s phone and never make it back to the busker themselves. The reality is that it isn’t easy to share photos with someone you’re not connected to on social media, and there’s no real incentive for people to do so either.
+	<br><br>
+	Whozzat creates an incentive for users to share those photos by allowing them to easily find out who’s performing just by snapping a picture. Then can give a digital tip and/or follow the busker on Whozzat to see future shows they are doing. The busker now has a collection of photos &amp; videos to use in social media or personal use, as well as an opportunity to grow an audience that stays around longer than a single performance.</p>
+
+	<h3>Features</h3>
+	<ul>
+		<li>→ Snap a picture/take a video to find out who’s performing</li>
+		<li>→ Share that photo with the busker, social media, or save it to your phone</li>
+		<li>→ No bills, no problem - tip the busker digitally</li>
+		<li>→ Follow buskers through the app to be notified about future performances</li>
+		<li>→ Use the discover page to find performances to check out, and buskers to follow</li>
+	</ul>
+
+</div></div>
+<div id= "wireframe">
+	<div class="container">
+	<h3>Wireframes</h3>
+	<p>Click to open in a new tab.</p>
+
+	<a href="/assets/img/whozzat/Wireframe - Description.pdf" target="_blank" style="margin-right:50px;"><img src = "/assets/img/whozzat/Wireframe - Description.png" alt="Whozzat Wireframe w/ descriptions of each screen" class = "wireframe"></a>
+	<a href="/assets/img/whozzat/Wireframe - Flow.pdf" target="_blank"><img src = "/assets/img/whozzat/Wireframe - Flow.png" alt="Whozzat Wireframe w/ user flows" class = "wireframe"></a>
+
+
+</div></div>
+<div id= "credit">
+	<div class="container">
+	<h3>Additional Credit</h3>
+	<p>Busker User Research - Team of 5 (Celine Ta, Cecelia Auerswald, Sidd Singal, Andrew Yeam, Myself)<br>
+		Photos from <a href = "https://unsplash.com/" target = "_blank">Unsplash</a> (Shalom Mwenesi, Paulette Wooten, Joanna Nix, Matt Seymour, Dewet Willemse, Moses Vega, Anja R)<br>
+		Icons used from <a href = "https://feathericons.com" target ="_blank">
+	Feather Icons</a> &amp; <a href = "https://icons8.com/" target = "_blank">Icons8</a></p><br>
+		<button type="button" class="button" onclick="window.location.href = 'waves.html';">SEE NEXT PROJECT →</button>
+</div></div>
+
+<!-- The Modal -->
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+</body>
+
+<script src="/assets/js/jquery-2.1.4.min.js"></script>
+<script src="/assets/js/functions.js" type="text/javascript"></script>
+<script src="/assets/js/horizontal-scroll.js"></script>
+</body>
+</html>

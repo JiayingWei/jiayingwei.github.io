@@ -1,51 +1,104 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/jiaying_space_template.dwt" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>Home</title>
-<!-- InstanceEndEditable -->
-<link href="general_css.css" rel="stylesheet" type="text/css" />
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+  <title>Jiaying Wei Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+  <link rel="stylesheet" href="assets/css/main.css" />
 </head>
-
 <body>
-<!--Contains everything-->
-<div id = "container">
 
-<!--This is the header and logo space-->
-<div id = "header">
-<div id = "logo"></div>
-<div id = "title"></div>
+<header>
+
+		<div class='logo'>	<a href="/index.html"><span class='name'>Jiaying Wei</span> <span class='role'>Interation Designer</span>	</a></div>
+
+
+	<nav>
+		<a href="/assets/img/Resume.pdf" target="_blank">Resume</a>
+		<a href="/index.html#3rdPage">Contact</a>
+		<a href="/index.html#secondPage">Portfolio</a>
+		<a href="/index.html#firstPage">About</a>
+	</nav>
+</header>
+
+<div id="fullpage">
+	<div class="section" id="about">
+		<div id = "centerabout">
+			<img src = "/assets/img/profilepic.png" alt="A photograph of Jiaying smiling" class="photo">
+			<div id = nameNDescription>
+				<div id="name">
+				<h1>Jiaying Wei</h1>
+				<h2 style="color:#FFB405">Let’s make things easier. </h2><br>
+			</div>
+			<div id="description">
+				<h4>I am an interaction designer creating experiences for IoT and AR applications. I believe that in our complicated world, we need to design for simplicity.</h4>
+
+				<br>
+
+				<ul>
+					<li>
+						<h4>→<span style="font-family: 'Lexend Deca'">Fun fact: I have a B.S. in Engineering.</span></h4><h5>Before getting into interaction design I spent much of my time working in my school’s machine shop learning how to operate different machines.</h5>
+					</li><br>
+					
+					<li>
+						<h4>→<span style="font-family: 'Lexend Deca'">Fun fact: I know 4 languages.</span></h4><h5> Being born in China, immigrating to the U.S., and now working in Japan has kept me on my toes learning new ways to communicate with people all over the world.</h5>
+					</li>
+				</ul>
+			</div>
+			</div>
+			</div>
+	</div>
+	<div class="section" id="portfolio">
+	<div class = "scrollable-element">
+	<br>
+	<h2>Making easier for...</h2><br>
+		<div class = "project">
+			<a href = /projects/whozzat.html>
+			<h3 class = "projectDesc">...street performers to recover lost photos and videos</h3><br>
+			<img src = "/assets/img/whozzat/Camera - Snapped.png" alt="Whozzat app screenshot - girl singing with guitar overlayed with UI interface for tipping" class="screenshot"></a></div>
+		
+		<div class = "project">
+			<a href = /projects/waves.html>
+			<h3 class = "projectDesc">...busy people to surf more</h3><br><br>
+			<img src = "assets/img/waves/Home.png" alt="Waves app screenshot - varity of cards with different options for beaches to surf at" class="screenshot"></a></div>
+	</div>
+	</div>
+	<div class="section" id="contactAndResume">
+		<div id = "resume">
+			<div id = "innerResume">
+				<h2 style="margin: 0 20px 0 20px">Want more about my experience &amp; background?</h2>
+				<br>
+				<h4>Download my resume here ↓</h4><br>
+				<button type="button" class="button"><a href="/assets/img/Resume.pdf" target="_blank">RESUME</a></button>
+				</div></div>
+		<div id = "contact">
+			<div id = "innerContact">
+				<h2 style="margin: 0 20px 0 20px">Want to learn more about my design process?</h2>
+				<br>
+				<h4>Contact me via Email or LinkedIn!</h4><br>
+				<button type="button" class="button"><a href="mailto:jywei02@gmail.com" >EMAIL</a></button>
+				<button type="button" class="button" onclick="window.open('https://www.linkedin.com/in/jiayingwei/');">LINKEDIN</button>
+			</div>
+		</div>
+	</div>
 </div>
 
-<!--This is the sidebar button space-->
-<div id = "sidebar">
-<ul id = "buttons">
-  <li id = "bhome"><a href="index.html"><span>Home</span></a></li>
-  <li id = "babout"><a href="aboutme.html"><span>About Me</span></a></li>
-  <li id = "byearone"><a href="yearone.html"><span>Freshman Year</span></a></li>
-  <li id = "bartwork"><a href="artwork.html"><span>Artwork</span></a></li>
-  <li id = "bcontact"><a href="contact.html"><span>Contact</span></a></li>
-</ul>
-</div>
 
-<!--This is my content space-->
-<div id = "content"><!-- InstanceBeginEditable name="text region" -->
-  <div id = "text">
-  
-    <div class = "left pmargins"><img src="images/aboutpic.jpg" height="400px" /></div>
-<p class="width400 right">
-  Hello! You've just stumbled on my personal portfolio.<br /><br />
-My name is Jiaying Wei and I'm currently a freshman at Franklin W. Olin College of Engineering. Olin College takes a non-traditional route to engineering education, a lot of the curriculum is centered around project based learning. A side effect of that is that now I have lots of cool projects to showcase! Enjoy the browse. 
-</p>
-  </div>
-<!-- InstanceEndEditable --></div>
+<script type="text/javascript" src="/assets/js/fullpage.js"></script>
+<script type="text/javascript" src="/assets/js/scrolloverflow.min.js"></script>
 
-<!--This is my claim to fame-->
-<div id = "credit"><span></span></div>
-
-</div>
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#FFFFFF', '#454545', '#1B1B1B'],
+        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        paddingTop: '75px',
+        css3: true,
+        scrollOverflow: true,
+        licenseKey: '757F7BE3-658C4D51-B85EDB41-12557988'
+    });
+</script>
+<script src="assets/js/jquery-2.1.4.min.js"></script>
+<script src="assets/js/functions.js" type="text/javascript"></script>
 </body>
-<!-- InstanceEnd --></html>
+</html>
