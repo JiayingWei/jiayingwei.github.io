@@ -1,104 +1,184 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Waves App</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
-  <link rel="stylesheet" href="/assets/css/main.css" />
-</head>
-<body>
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Waves</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
 
-<header>
-
-		<div class='logo'>	<a href="/index.html"><span class='name'>Jiaying Wei</span> <span class='role'>UIUX Designer</span>	</a></div>
-
-
-	<nav>
-		<a href="/assets/img/Resume (github ver).pdf" target="_blank">Resume</a>
-		<a href="/index.html#3rdPage">Contact</a>
-		<a href="/index.html#secondPage">Portfolio</a>
-		<a href="/index.html#firstPage">About</a>
-	</nav>
+  </head>
+  <body>
+    <a href="/index.html" class="header_class">
+	<header>
+		<div class='logo'><span class='name'>Jiaying Wei</span> <span class='role'>UIUX Designer</span></div>
 </header>
+</a>
 
-<div class= "menu-wrapper">
-	<ul class = "menu">
-	<li class = "item">
-		<img src = "/assets/img/waves/Questions Start.png" alt="Waves app screenshot - &quot;Help us personalize your surf recommendations&quot;" class="screenshot" onclick="clickImg(this)">
-		<p>Wave's simple questionnaire is just four questions</p>
-	</li><li class = "item">
-		<img src = "/assets/img/waves/Questions 1.png" alt="Waves app screenshot - &quot;What types of waves are you looking to ride&quot;" class="screenshot" onclick="clickImg(this)">
-		<p>Choose various levels of wave conditions to surf</p>
-	</li><li class = "item">
-		<img src = "/assets/img/waves/Questions 2.png" alt="Waves app screenshot - dialog box with options to save to social media and share photo with the busker" class="screenshot" onclick="clickImg(this)">
-		<p>Choose which types of surfboards you own<br> </p>
-	</li><li class = "item">
-		<img src = "/assets/img/waves/Home.png" alt="Waves app screenshot - busker's profile displaying social media, upcoming shows, and follow option" class="screenshot" onclick="clickImg(this)">
-		<p>Recommends locations that offer the best ride on days you are free</p>
-	</li><li class = "item">
-		<img src = "/assets/img/waves/Home-special.png" alt="Waves app screenshot - newsfeed of upcoming shows from buskers the user has followed" class="screenshot" onclick="clickImg(this)">
-		<p>Special colored cards highlight when wave conditions are atypical</p>
-	</li>
 
-	<div class="paddles">
-		<button class="button left-paddle paddle hidden "></button>
-		<button class="button right-paddle paddle "></button>
-	</div>
+    <div id="hero_image" style="background-image: url(/assets/img/waves/hero.png)"></div>
+
+    <div id= "toc"><ul>
+  <li><a href="#background">Background</a></li>
+  <li><a href="#analysis">Analysis</a></li>
+  <li><a href="#ux-design">UX Design</a></li>
+  <li><a href="#ui-design">UI Design</a></li>
+  <li><a href="#download">Download</a></li>
+</ul>
+</div>
+    <section id ="blog_content">
+        <h1 id="waves-your-personalized-surf-forecaster">Waves: your personalized surf forecaster</h1>
+
+<p>UX Design <span class="slash">/</span> UI Design <span class="slash">/</span> Mobile App</p>
+
+<h2 id="background">Background</h2>
+
+<p>In 2019 I went on a trip to Hawaii and took a beginners surf lesson. From there I quickly fell in love with the sport and I’ve been trying to catch as many waves as I can ever since.</p>
+
+<p>So one thing that many beginner surfers come to realise is that no wave is alike. The conditions at the shore are different from day to day, hour to hour, minute to minute. Sometimes you go and the waves are perfect, rolling in one after the other. Sometimes you go and there’s nothing.</p>
+
+<p>Because it’s so variable, surfers will often rely on these apps called surf forecasters to figure out when to hit the beach. These forecasters take a bunch meteorological data, analyze it, and then tell you what the conditions will be like for the next week or two out. Some popular ones are <strong>Magical Seaweed</strong> and <strong>Surfline.</strong> But as you can see below, these forecasts are not exactly the easiest to try to figure out.</p>
+
+<p><img src="/assets/img/waves/background_1.png" alt="Magical Seaweed &amp; Surfline app screenshot" /></p>
+
+<p>The best way to improve your surfing is to just go out and surf, but as a beginner, it can be easy to feel overwhelmed and intimidated by all this information.</p>
+
+<p><strong>Goal:</strong> I wanted to design a <em>surf forecasting app</em> that would encourage people to surf more by making that decision <em>easier</em>.</p>
+
+<h2 id="analysis">Analysis</h2>
+
+<p>So before I started designing, I wrote down all the factors that I would usually consider when deciding whether or not to go surfing.</p>
+
+<ol>
+  <li><strong>Wave height</strong> - This is the height of the wave from top to the bottom. Too small and there are no waves to surf, too large and it can be too dangerous to surf.</li>
+  <li><strong>Wind direction</strong> - Wind direction can affect the shape of the wave. When the wind is blowing towards the ocean, also known as offshore wind, it helps the wave keep its shape allowing for a longer ride. The opposite, known as onshore wind, tends to flatten waves making it more difficult to ride.</li>
+  <li><strong>Wind speed</strong> - When winds are really strong it can make surfing difficult and dangerous. In my area some of the best surf occurs during typhoon season, so it’s important to take it into account.</li>
+</ol>
+
+<p><img src="/assets/img/waves/analysis_1.png" alt="Magical Seaweed app screenshot with numerical labels" /></p>
+
+<p>I’m able to get all three of these factors from Magical Seaweed’s app, but there’s a lot of extra information there that I’m not really able to interpret. While it might be useful to a more experienced surfer, the app doesn’t teach me how to understand these values, so unfortunately it just ends up as visual noise.</p>
+
+<p>On a typical week this is my personal routine for deciding when to go surf.</p>
+
+<p><strong>Step 1.</strong> Narrow down the chart to just the days I can go surfing. For me that’s the weekends (Saturday &amp; Sunday).</p>
+
+<p><img src="/assets/img/waves/analysis_2.png" alt="Magical Seaweed app partial screenshot showing weekly graph" /></p>
+
+<p><strong>Step 2.</strong> See which one has larger waves, only because the waves haven’t been very big this winter. This week it is Sunday clocking in at 0-1ft.</p>
+
+<p><img src="/assets/img/waves/analysis_3.png" alt="Magical Seaweed app partial screenshot showing daily breakdown" /></p>
+
+<h2 id="ux-design">UX Design</h2>
+
+<p>Based on my analysis, there were a few things I wanted to change for my own app.</p>
+<ul>
+  <li>Instead of showing the forecast for the entire week I wanted to focus only on times when users are available to surf.</li>
+  <li>Instead of giving people numerical data that they had to interpret by themselves, I wanted to give the user an explanation of the conditions like how a friendly surf instructor would.</li>
+</ul>
+
+<p>My app would recommend users times to surf based on their availability. With this concept I mocked up a few wireframes, arriving at the following design.</p>
+
+<ol>
+  <li><strong>Recommendations for times to surf are organized into cards.</strong> Each card details when, where, wave height, wind conditions, and a brief comment on the conditions that day.</li>
+  <li><strong>Cards are organized by day.</strong> By swiping horizontally users can see alternative times &amp; locations for the same day.</li>
+  <li><strong>Wave height is represented using a human.</strong> In addition to displaying wave height with numbers, I wanted to bring emphasis to it by including a visual representation. Surfers will often refer to wave height using parts of their body (ex. Knee high waves, up to the chest, overhead, etc).</li>
+  <li><strong>Add to calendar</strong> allows people to quickly save the event to their calendar app.</li>
+  <li><strong>Tapping on a card</strong> would bring you to a more detailed view showing the daily/weekly hour-by-hour breakdown of the wave conditions.</li>
+</ol>
+
+<p><img src="/assets/img/waves/UX_1.png" alt="Wireframe of Waves app - homescreen" /></p>
+
+<p>Because the recommendations are tailored to the user’s availability, I knew that I needed a simple onboarding process. Additionally I saw an opportunity to further personalize the recommendations by asking them questions about what level they thought they were and what surfboards they owned.</p>
+
+<p>While I briefly considered a typical form type interface for the onboarding, I ultimately decided that by splitting these questions into multiple pages, it would keep things more simple.</p>
+
+<p>My onboarding process asked about:</p>
+<ol>
+  <li><strong>Surf Level</strong> -  So that the app could recommend waves conditions that were appropriate for that level of surfer (ex. Not recommending 5ft waves for a beginner surfer).</li>
+  <li><strong>Surfboards</strong> - So that it could recommend certain boards for certain conditions (ex. a shortboard for when waves are larger).</li>
+  <li><strong>Locations</strong> - So the  users could pick a few surf spots near them for more options.</li>
+  <li><strong>Availability</strong> - So that we’re only recommending times that people are available to surf.</li>
+</ol>
+
+<p><img src="/assets/img/waves/UX_2.png" alt="Wireframe of Waves app - onboarding" /></p>
+
+<p>Later on in the process I added a few screens I forgot about like account details (email, passwords, etc.) and an email confirmation page, but for now I think that this wireframe would be enough to start asking users what they thought were relevant, unnecessary, or missing.</p>
+
+<h2 id="ui-design">UI Design</h2>
+
+<p>So now that I had my basic design hashed out, I was ready to start with the user interface design.</p>
+
+<p>Some decisions I made for the UI Design was to:</p>
+
+<ol>
+  <li><strong>Keep to a single color pallet.</strong> I found that the Magical Seaweed app had used color to indicate states, but I was never quite sure what it meant (ex. Does green=good &amp; red=bad, or does green=weak &amp; red=strong?), this would also mitigate some of the accessibility issues when it comes to using colors like green and orange together.</li>
+  <li><strong>Use the graph titles as data labels.</strong> It’s difficult to fit a bunch of information onto a tiny screen, and one way that mobile sacrifices usability is that it’s hard to label each individual bar. I decided to compromise so that when a certain bar is highlighted (by tapping on it), the corresponding graph title changes to reflect the value.</li>
+  <li><strong>Allow the graph to overflow.</strong> While in an ideal world, the entire graph would fit on a single screen, because we have to account for smaller screens too it makes more sense to give each bar breathing room and let the data overflow. Even with the overflow, core surfing times are all visible without scrolling so it shouldn’t impact usability as much.</li>
+  <li><strong>Emphasize offshore winds.</strong> Like I mentioned earlier, offshore winds are preferred over onshore winds, so by deemphasizing onshore winds we teach the user to only focus on onshore winds.</li>
+</ol>
+
+<p><img src="/assets/img/waves/UI_1.png" alt="UI Design of Waves app - homepage" /></p>
+
+<ol>
+  <li><strong>Add some fun illustrations.</strong> Since it’s a surfing app, I figured it doesn’t hurt to add some quirk by including some fun illustrations for some of the onboarding screens.</li>
+  <li><strong>Add helpful illustrations.</strong> By indicating the length of the board using the person as a measuring stick, we can help users get a better sense of how big each different type of surfboard is.</li>
+</ol>
+
+<h2 id="download">Download</h2>
+
+<p>Download the <a href="/assets/img/waves/waves_download.zip">full unannotated design</a> as png files.</p>
+
+<h3 id="credit">Credit</h3>
+<ul>
+  <li>Icons from <a href="https://material.io/" target="_blank">Material.io</a></li>
+</ul>
+
+
+    </section>
+
+<div id= 'portolio_projects' class="other_projects">
+  <h2>Other Projects</h2>
+
+<div id='cards'>
+
+
+   <div class = "card">
+	<a href="/projects/Buskers.html"><div class = "overlay"></div></a>
+	<img src="/assets/img/buskers_thumb.png" class = "card_img">
+	<span class = "tags"> User Research <span>/</span> UX Design <span>/</span> UI Design <span>/</span> Web App </span>
+	<span class = "title"> Lost & Found Media </span>
+	<span class = "description"> Recovering lost photos for street performers </span>
 
 </div>
-<div id= "appDescription">
-	<div class="container">
-	<h3>Leveraging design to
-help busy people surf more
-</h3>
-	<p>
-	Surfing is a fun sport that brings us closer to nature, but because of that we are also subject to her whims. Some days there are lots of waves, and some days the ocean is completely flat. There are lots of variables that can go into a surfer’s decision on whether to go surfing or not. 
-	<br><br>
-	There are existing apps that provide detailed meteorological data on wave height, tide graphs, sunrise &amp; sunset times which are great for people who like the nitty gritty details. However I wanted to create something that would encourage people who are intimidated by the technical aspects of surfing to just go out and surf more. To do that, I wanted to make the decision to surf as simple as possible: Do I want to go surfing at this time? Yes or No. 
-	</p>
+<!--
 
+--><!--
 
+-->
+  <div class = "card">
+	<a href="/projects/jisho.html"><div class = "overlay"></div></a>
+	<img src="/assets/img/jisho_thumb.png" class = "card_img">
+	<span class = "tags"> UI Design <span>/</span> Web App </span>
+	<span class = "title"> Jisho.org </span>
+	<span class = "description"> Modern redesign of a Japanese dictionary </span>
 
-
-	<h3>Features</h3>
-	<ul>
-		<li>→ Simple questionnaire figures out which types of waves you like and when you have time to surf</li>
-		<li>→ Provide recommendations for locations that offer the best ride on days that you are free</li>
-		<li>→ Each card gives suggestions for how to make the best of that particular surf session</li>
-		<li>→ Swipe a card to the left to see alternative options at other locations</li>
-		<li>→ Special colored cards highlight when wave conditions are atypical</li>
-	</ul>
-<br><br>
-	<h3>Future Expansions</h3>
-	<ul>
-		<li>→ Detailed view: For the more data loving surfer, tap the card to learn more details such as crowds, wind speed &amp; direction, tide data, and more</li>
-		<li>→ Calendar view: For people with more flexible schedules or want to optimize for certain conditions, see wave forecast in calendar view</li>
-		<li>→ More water sports: Expand the app to include windsurfing, paddle boarding, sailing, and more</li>
-	</ul>
-
-</div></div>
-
-<div id= "credit">
-	<div class="container">
-	<h3>Additional Credit</h3>
-	<p>Icons used from <a href = "https://feathericons.com" target ="_blank">
-	Feather Icons</a> &amp; <a href = "https://twemoji.twitter.com" target ="_blank">Twitter Open Source Emojis</a></p>
-<br><br>
-		<button type="button" class="button" onclick="window.location.href = 'whozzat.html';">SEE NEXT PROJECT →</button>
-</div></div>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
 </div>
 
-</body>
+</div>
+
+<a href='/index.html' class="button yellow gohome">Back to Home</a>
+
+</div>
+
+
+<footer>
+  <p>Designed & Coded by Jiaying Wei</p>
+</footer>
 
 <script src="/assets/js/jquery-2.1.4.min.js"></script>
-<script src="/assets/js/functions.js" type="text/javascript"></script>
-<script src="/assets/js/horizontal-scroll.js"></script>
-</body>
+<script src="/assets/js/sticky-toc.js"></script>
+<script src="/assets/js/highlight-nav.js"></script>
+
+  </body>
 </html>
