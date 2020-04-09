@@ -49,13 +49,13 @@
 
 <p>So before I started designing, I wrote down all the factors that I would usually consider when deciding whether or not to go surfing.</p>
 
+<p><img src="/assets/img/waves/analysis_1.png" alt="Magical Seaweed app screenshot with numerical labels" /></p>
+
 <ol>
   <li><strong>Wave height</strong> - This is the height of the wave from top to the bottom. Too small and there are no waves to surf, too large and it can be too dangerous to surf.</li>
   <li><strong>Wind direction</strong> - Wind direction can affect the shape of the wave. When the wind is blowing towards the ocean, also known as offshore wind, it helps the wave keep its shape allowing for a longer ride. The opposite, known as onshore wind, tends to flatten waves making it more difficult to ride.</li>
   <li><strong>Wind speed</strong> - When winds are really strong it can make surfing difficult and dangerous. In my area some of the best surf occurs during typhoon season, so it’s important to take it into account.</li>
 </ol>
-
-<p><img src="/assets/img/waves/analysis_1.png" alt="Magical Seaweed app screenshot with numerical labels" /></p>
 
 <p>I’m able to get all three of these factors from Magical Seaweed’s app, but there’s a lot of extra information there that I’m not really able to interpret. While it might be useful to a more experienced surfer, the app doesn’t teach me how to understand these values, so unfortunately it just ends up as visual noise.</p>
 
@@ -79,6 +79,8 @@
 
 <p>My app would recommend users times to surf based on their availability. With this concept I mocked up a few wireframes, arriving at the following design.</p>
 
+<p><img src="/assets/img/waves/UX_1.png" alt="Wireframe of Waves app - homescreen" /></p>
+
 <ol>
   <li><strong>Recommendations for times to surf are organized into cards.</strong> Each card details when, where, wave height, wind conditions, and a brief comment on the conditions that day.</li>
   <li><strong>Cards are organized by day.</strong> By swiping horizontally users can see alternative times &amp; locations for the same day.</li>
@@ -87,13 +89,13 @@
   <li><strong>Tapping on a card</strong> would bring you to a more detailed view showing the daily/weekly hour-by-hour breakdown of the wave conditions.</li>
 </ol>
 
-<p><img src="/assets/img/waves/UX_1.png" alt="Wireframe of Waves app - homescreen" /></p>
-
 <p>Because the recommendations are tailored to the user’s availability, I knew that I needed a simple onboarding process. Additionally I saw an opportunity to further personalize the recommendations by asking them questions about what level they thought they were and what surfboards they owned.</p>
 
 <p>While I briefly considered a typical form type interface for the onboarding, I ultimately decided that by splitting these questions into multiple pages, it would keep things more simple.</p>
 
-<p>My onboarding process asked about:</p>
+<p><img src="/assets/img/waves/UX_2.png" alt="Wireframe of Waves app - onboarding" /></p>
+
+<p>This onboarding process would ask about:</p>
 <ol>
   <li><strong>Surf Level</strong> -  So that the app could recommend waves conditions that were appropriate for that level of surfer (ex. Not recommending 5ft waves for a beginner surfer).</li>
   <li><strong>Surfboards</strong> - So that it could recommend certain boards for certain conditions (ex. a shortboard for when waves are larger).</li>
@@ -101,15 +103,15 @@
   <li><strong>Availability</strong> - So that we’re only recommending times that people are available to surf.</li>
 </ol>
 
-<p><img src="/assets/img/waves/UX_2.png" alt="Wireframe of Waves app - onboarding" /></p>
-
 <p>Later on in the process I added a few screens I forgot about like account details (email, passwords, etc.) and an email confirmation page, but for now I think that this wireframe would be enough to start asking users what they thought were relevant, unnecessary, or missing.</p>
 
 <h2 id="ui-design">UI Design</h2>
 
 <p>So now that I had my basic design hashed out, I was ready to start with the user interface design.</p>
 
-<p>Some decisions I made for the UI Design was to:</p>
+<p>Some decisions I made for the UI Design was to,</p>
+
+<p><img src="/assets/img/waves/UI_1.png" alt="UI Design of Waves app - homepage" /></p>
 
 <ol>
   <li><strong>Keep to a single color pallet.</strong> I found that the Magical Seaweed app had used color to indicate states, but I was never quite sure what it meant (ex. Does green=good &amp; red=bad, or does green=weak &amp; red=strong?), this would also mitigate some of the accessibility issues when it comes to using colors like green and orange together.</li>
@@ -118,12 +120,9 @@
   <li><strong>Emphasize offshore winds.</strong> Like I mentioned earlier, offshore winds are preferred over onshore winds, so by deemphasizing onshore winds we teach the user to only focus on onshore winds.</li>
 </ol>
 
-<p><img src="/assets/img/waves/UI_1.png" alt="UI Design of Waves app - homepage" /></p>
+<p>On the onboarding screens I decided to add a few fun illustrations for both visual interest and added helpful information.</p>
 
-<ol>
-  <li><strong>Add some fun illustrations.</strong> Since it’s a surfing app, I figured it doesn’t hurt to add some quirk by including some fun illustrations for some of the onboarding screens.</li>
-  <li><strong>Add helpful illustrations.</strong> By indicating the length of the board using the person as a measuring stick, we can help users get a better sense of how big each different type of surfboard is.</li>
-</ol>
+<p><img src="/assets/img/waves/UI_2.png" alt="UI Design of Waves app - homepage" /></p>
 
 <h2 id="download">Download</h2>
 
