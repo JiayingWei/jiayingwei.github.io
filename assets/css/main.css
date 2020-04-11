@@ -155,9 +155,9 @@ a:active { color: #FFC700; }
   .card { max-width: 600px; margin: 0px auto 36px auto; text-align: center; }
   .gohome { margin: 12px auto 50px auto; } }
 
-#about { display: block; margin: 144px auto 70px auto; max-width: 929px; }
+#about { display: flex; margin: 144px auto 70px auto; justify-content: center; }
 
-#home_img { display: block; float: left; width: 366px; height: 366px; background-image: url("/assets/img/homepage_photo.png"); background-position: center; /* Center the image */ background-size: cover; /* Resize the background image to cover the entire container */ }
+#home_img { display: block; float: left; width: 399px; height: 399px; background-image: url("/assets/img/homepage_photo.png"); background-position: center; /* Center the image */ background-size: cover; /* Resize the background image to cover the entire container */ }
 
 #about_text { display: block; float: left; padding-left: 50px; max-width: 513px; }
 
@@ -180,7 +180,8 @@ a:active { color: #FFC700; }
   #home_img { display: block; float: left; width: 100%; height: 250px; background-image: url("/assets/img/homepage_photo_mobile.png"); } }
 
 @media screen and (max-width: 620px) { #cards { width: auto; margin: 12px 16px 0 16px; }
-  #about_text { margin: 0 16px 0 16px; } }
+  #about_text { margin: 0 16px 0 16px; }
+  header .logo { margin: 19px 0 26px 16px; } }
 
 .mailto-wrapper { position: relative; }
 
