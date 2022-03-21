@@ -1,0 +1,46 @@
+---
+---
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Write your styles below this line. */
+@layer base {
+    h2 {
+      @apply text-3xl;
+    }
+    h3{
+      @apply text-xl ;
+    }
+    p{
+        @apply text-base ;
+    }
+
+    p a{
+        text-decoration: underline;
+    }
+
+    p a:hover{
+        @apply text-red-600;
+    }
+
+    .button{
+        @apply text-base px-5 h-10 rounded inline-flex items-center cursor-pointer bg-gray-200 tracking-wide; 
+    }
+
+    html {
+      font-family: Jost, system-ui, sans-serif;
+    }  
+
+    @font-face {
+      font-family: "Jost";
+      font-weight: 400;
+      font-style: normal;
+      src: url("../fonts/Jost-Regular.ttf");
+      font-display: swap;
+    }
+}
+
+/* Write your styles above this line. */
+

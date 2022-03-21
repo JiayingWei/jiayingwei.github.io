@@ -1,0 +1,23 @@
+### Site metadata ###
+
+title: Jekyll Tailwind Demo
+description:
+
+### Build settings ###
+
+url: ""
+baseurl: ""
+
+exclude:
+  - bin/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - package*.json
+  - yarn.lock
+  - postcss.config.js
+  - purgecss.config.js
+  - README.md
+  - Makefile
+  - netlify.toml
