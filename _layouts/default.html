@@ -4,6 +4,11 @@
   {% feed_meta %}
   {% seo %}
   <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/styles.css %}">
+
+{% if page.title %}
+  <title>{{ title }}</title>
+{% endif %}
+
 </head>
 <html>
   {% include header.html %}

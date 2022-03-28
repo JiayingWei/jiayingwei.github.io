@@ -7,14 +7,34 @@
 
 /* Write your styles below this line. */
 @layer base {
+    h1 {
+      @apply text-4xl;
+    }
+
     h2 {
       @apply text-3xl;
     }
     h3{
       @apply text-xl ;
     }
-    p{
-        @apply text-base ;
+    p, li{
+        @apply text-lg font-light	leading-relaxed;
+    }
+
+    #portfolio > p, #portfolio > img {
+        @apply my-2 ;
+      }
+
+    #portfolio > h1, #portfolio > h2, #portfolio > h3{
+      @apply mt-6 leading-none;
+    }
+
+    #portfolio > ol{
+      @apply list-decimal ml-6;
+    }
+
+    #portfolio > ul{
+      @apply list-disc ml-6;
     }
 
     p a{
@@ -31,13 +51,30 @@
 
     html {
       font-family: Jost, system-ui, sans-serif;
+      scroll-padding-top: 5rem;
     }  
+
+    @font-face {
+      font-family: "Jost";
+      font-weight: 300;
+      font-style: normal;
+      src: url("../fonts/Jost-Light.ttf");
+      font-display: swap;
+    }
 
     @font-face {
       font-family: "Jost";
       font-weight: 400;
       font-style: normal;
       src: url("../fonts/Jost-Regular.ttf");
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Jost";
+      font-weight: 600;
+      font-style: normal;
+      src: url("../fonts/Jost-SemiBold.ttf");
       font-display: swap;
     }
 }
