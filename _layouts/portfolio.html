@@ -1,15 +1,16 @@
 ---
 layout: default
 ---
-<img src="{{ site.baseurl }}/assets/images/{{page.hero_img}}" class="w-full border-b border-gray-300 m-0">
-<ul id ="TOC" class="self-start	sticky top-16"></ul>
+<img src="{{ site.baseurl }}/assets/images/{{page.hero_img}}" class="w-full border-b border-gray-300 m-0 z-10">
+<ul id ="TOC" class="self-start	hidden lg:block fixed top-16 m-8 uppercase tracking-wide z-0"></ul>
+<div class="-mb-16 bg-gradient-to-b from-white via-white relative h-20 w-48 z-10 self-start"></div>
 <section id = "portfolio" class="flex flex-col max-w-screen-sm mx-4">
     {{ content }}
 </section>
-
+<div class="bg-gradient-to-t from-white via-white relative h-20 w-48 z-10 self-start"></div>
 
 <!-- Other Projects -->
-<section class = "mt-16 w-full flex flex-col items-center bg-gray-200"> 
+<section class = "w-full flex flex-col items-center bg-gray-200 z-10"> 
 	<div class = "flex flex-col gap-8 p-8">
 		
 		<h2 class="text-center"> Other Projects</h2>

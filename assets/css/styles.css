@@ -18,7 +18,7 @@
       @apply text-xl ;
     }
     p, li{
-        @apply text-lg font-light	leading-relaxed;
+      @apply text-lg font-light	leading-relaxed;
     }
 
     #portfolio > p, #portfolio > img {

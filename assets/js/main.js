@@ -9,6 +9,6 @@ var headings = portfolio_body.querySelectorAll("h2")
 for (let i = 0; i < headings.length; i++) {
         headings[i].id = headings[i].innerHTML;
         var li = document.createElement("li");
-        li.innerHTML= `<a href='#${headings[i].innerHTML}'>${headings[i].innerHTML}</a>`
+        li.innerHTML= `<a href='#${headings[i].innerHTML}' class = "leading-loose	text-gray-500 hover:text-blue-600">${headings[i].innerHTML}</a>`
         TOC.appendChild(li);
       }  
