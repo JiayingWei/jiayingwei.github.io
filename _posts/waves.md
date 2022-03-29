@@ -2,9 +2,6 @@
 layout: portfolio
 title: Waves
 hero_img: "waves/hero.png"
-
-previous: buskers
-next: jisho
 ---
 
 Waves: your personalized surf forecaster

@@ -1,10 +1,7 @@
 ---
 layout: portfolio
 title: Lost & Found Media
-hero_img: buskers/hero.png
-
-previous: rebrand
-next: waves
+hero_img: "buskers/hero.png"
 ---
 
 # Lost &amp; Found Media: recovering photos for street performers

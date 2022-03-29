@@ -1,6 +1,5 @@
 ---
 layout: default
-hero_img: buskers/hero.png
 ---
 <img src="{{ site.baseurl }}/assets/images/{{page.hero_img}}" class="w-full border-b border-gray-300 m-0">
 <ul id ="TOC" class="self-start	sticky top-16"></ul>
@@ -8,6 +7,8 @@ hero_img: buskers/hero.png
     {{ content }}
 </section>
 
+
+<!-- Other Projects -->
 <section class = "mt-16 w-full flex flex-col items-center bg-gray-200"> 
 	<div class = "flex flex-col gap-8 p-8">
 		
@@ -17,17 +18,22 @@ hero_img: buskers/hero.png
 		<!-- previous -->
 		<!-- project -->
 		<a class = "bg-white flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110"
-			href="{{ site.baseurl }}{% link portfolio/jisho.md %}">
-			<img src="{{ site.baseurl }}{% link assets/images/jisho_thumb.png %}">
+			href="{{ site.baseurl }}/portfolio/{{site.data.portfolio[page.previous].url}}">
+			<img src="{{ site.baseurl }}/assets/images/{{site.data.portfolio[page.previous].thumbnail}}">
 			<div class = "flex flex-col p-4">
-				<div class="flex flex-row flex-wrap gap-1 text-sm text-gray-500">
-					<p> UI Design </p>
-					<p class = "text-gray-300"> / </p>
-					<p> Web App </p>
+				<div class="flex flex-row flex-wrap gap-x-1 text-sm text-gray-500">
+					{% for tag in site.data.portfolio[page.previous].tags %}
+					{% if forloop.first == true %}
+						<p>{{ tag }}</p>
+						{% else %}
+						<p class = "text-gray-300"> / </p>
+						<p>{{ tag }}</p>
+						{% endif %}
+					{% endfor %}
 				</div> 
-				<h3>Jisho.org</h3>
+				<h3>{{site.data.portfolio[page.previous].title}}</h3>
 				<p>
-					Modern redesign of a Japanese dictionary
+					{{site.data.portfolio[page.previous].description}}
 				</p>
 			</div>
 		</a>
@@ -35,24 +41,23 @@ hero_img: buskers/hero.png
 		<!-- next -->
 		<!-- project -->
 		<a class = "bg-white flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110"
-			href="{{ site.baseurl }}{% link portfolio/waves.md %}">
-			<img src="{{ site.baseurl }}{% link assets/images/waves_thumb.png %}">
+			href="{{ site.baseurl }}/portfolio/{{site.data.portfolio[page.next].url}}">
+			<img src="{{ site.baseurl }}/assets/images/{{site.data.portfolio[page.next].thumbnail}}">
 			<div class = "flex flex-col p-4">
-				<div class="flex flex-row flex-wrap gap-1 text-sm text-gray-500">
+				<div class="flex flex-row flex-wrap gap-x-1 text-sm text-gray-500">
 					<p>UX Design</p>
 					<p class = "text-gray-300"> / </p>
 					<p> UI Design </p>
 					<p class = "text-gray-300"> / </p>
 					<p> Mobile App </p>
 				</div> 
-				<h3> Waves </h3>
+				<h3> {{site.data.portfolio[page.next].title}} </h3>
 				<p>
-					Your personalized surf forecaster
+					{{site.data.portfolio[page.next].description}}
 				</p>
 			</div>
 		</a>
     </div>
-    <a href='/' class="button self-center bg-white">Back to Home</a>
-
+    <a href='/' class="button self-center bg-white shadow-xl hover:bg-green-300">Back to Home</a>
 </section>
 <script src="{{ site.baseurl }}/assets/js/main.js"></script>

@@ -2,9 +2,6 @@
 layout: portfolio
 title: Jisho.org
 hero_img: "jisho/hero.png"
-
-previous: waves
-next: rebrand
 ---
 
 

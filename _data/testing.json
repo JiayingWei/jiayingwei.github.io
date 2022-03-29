@@ -1,0 +1,48 @@
+{
+    "rebrand": {
+      "tags": [
+        "Branding",
+        "Website",
+        "Illustration"
+      ],
+      "title": "BitGym Rebrand",
+      "description": "Fitness app for the wanderluster",
+      "thumbnail": "rebrand_thumb.png"
+    },
+    "buskers": {
+      "tags": [
+        "User Research",
+        "Ideation",
+        "UX Design",
+        "UI Design",
+        "Web App"
+      ],
+      "title": "Lost & Found Media",
+      "description": "Recovering lost photos for street performers",
+      "thumbnail": "buskers_thumb.png"
+    },
+    "jisho": {
+      "tags": [
+        "User Research",
+        "Ideation",
+        "UX Design",
+        "UI Design",
+        "Web App"
+      ],
+      "title": "Lost & Found Media",
+      "description": "Recovering lost photos for street performers",
+      "thumbnail": "jisho_thumb.png"
+    },
+    "waves": {
+      "tags": [
+        "User Research",
+        "Ideation",
+        "UX Design",
+        "UI Design",
+        "Web App"
+      ],
+      "title": "Lost & Found Media",
+      "description": "Recovering lost photos for street performers",
+      "thumbnail": "waves_thumb.png"
+    }
+  }
