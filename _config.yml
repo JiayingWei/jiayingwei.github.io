@@ -1,12 +1,12 @@
 ### Site metadata ###
 
-title: Jekyll Tailwind Demo
-description:
+title: Jiaying's Portfolio
+description: Welcome to Jiaying Wei's portfolio website.
 
 ### Build settings ###
 
 url: ""
-baseurl: ""
+baseurl: "https://jiayingwei.github.io/"
 
 exclude:
   - bin/
