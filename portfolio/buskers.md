@@ -1,9 +1,9 @@
 ---
 layout: portfolio
 title: Lost & Found Media
-hero_img: buskers/hero.png
+hero_img: buskers/hero.jpeg
 
-previous: rebrand
+previous: jisho
 next: waves
 ---
 
@@ -11,23 +11,7 @@ next: waves
 
 User Research <span class="slash">/</span> Ideation <span class="slash">/</span> UX Design <span class="slash">/</span> UI Design <span class="slash">/</span> Web App
 
-## Background
-
-When I first entered college I wanted to be a mechanical engineer, I wanted to build robots, I wanted to machine things. To some extent those things are still true, but in my sophomore year of college we had a mandatory class called **User Oriented Collaborative Design.** Shortly after finishing this class I declared my major as General Engineering with a concentration in Design.
-
-Some people say don’t include class projects in your portfolio, but this particular class not only got me interested in design, but the user research we did was equal to, if not more thorough than what I currently do in my scope as a UIUX designer. While the research was done during my college years, I redid the UIUX for this portfolio more recently.
-
-So first some background on the class, like it’s name suggests, <em>User Oriented Collaborative Design,</em> it is a class about taking a human centric approach towards design. While as a professional designer you might be thinking “duh,” but you have to admire a school that proactively teaches it’s engineering students to put people first and not just create for technology’s sake.
-
-In our final project we dove deeply into a user group we were interested in and then created a prototype product/service based on the research we did.
-
-For our final project:
-
-
-  + We chose **buskers** as our user group, people who perform on the streets for tips.
-  + We had **6 weeks**, broken down into three phases, research, ideate, and prototype.
-  + We were on a **team of 5.** Four engineering students and one business student from the college next door.
-
+Lost & Found Media is a concept idea for recovering pictures & videos taken of buskers, people who perform in public for tips. Our team of 5 developed this idea in a 6 week deepdive broken down into three phases, research, ideate, and prototyping.
 
 ## Research
 
@@ -56,7 +40,7 @@ We then took the most compelling ideas and fleshed them out into idea cards so t
 
 Our idea was a service that would help buskers find all the photos and videos that audiences have taken of them, and then use that to help them market themselves on social media.
 
-The following was the initial idea card that we showed our users.
+The following was the initial idea card for Lost & Found media we showed our users.
 
 <img src="{{ site.baseurl }}/assets/images/buskers/research_3.png" alt="Lost &amp; Found Media Idea Card">
 
@@ -69,17 +53,14 @@ The following was the initial idea card that we showed our users.
 
 ## UX Design
 
-It’s been a couple of years now since we first did the user research, because the project was only 6 weeks long we didn’t really have the time to explore in depth what the service would look like.
+From here on out, I did a solo exploration of what the service might look like. I scoped this exploration to focus on 2 specific parts:
 
-At its core, Lost &amp; Found Media is a service that crawls various social media for you and finds your lost photos &amp; videos that others have uploaded. From there you can choose to interact with fans online, share your newfound media with your social media audience, or collect it for portfolio purposes.
-
-For the second half of this project I wanted to flesh out Lost &amp; Found Media so that it looked like a convincing service. For this design I’ve decided to focus on 2 specific parts:
-
-  1. Creating a Homepage for Lost &amp; Found Media selling and explaining the value of the service to potential users
+  1. Creating a Homepage for Lost &amp; Found Media selling and explaining the value of the service to potential customers
   2. Designing the initial user experience after the person has signed up, logged in, and is ready to find their pictures
 
-
 ### Lost &amp; Found Homepage
+
+To reiterate, Lost &amp; Found Media is a service that crawls various social medias for you and finds your lost photos &amp; videos that other people have uploaded. From there you can choose to interact with fans online, share your newfound media with your online audience, or collect it for portfolio purposes.
 
 In the age of SaaS (Software as a Service), it’s important to lay out to potential users what the value of the service is for them.
 
@@ -200,7 +181,6 @@ The logo for Lost &amp; Found Media is simple, but I thought it had some cool sy
 
 
 ## Credit
-
 
   + User Research done with Celine Ta, Cecelia Auerswald, Sidd Singal, &amp; Andrew Yeam
   + Stock Photos from <a href="https://unsplash.com/collections/9824781/lost-%26-found-media" target="_blank">Unsplashed</a>

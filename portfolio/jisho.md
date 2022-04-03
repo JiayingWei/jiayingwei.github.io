@@ -1,10 +1,10 @@
 ---
 layout: portfolio
 title: Jisho.org
-hero_img: "jisho/hero.png"
+hero_img: "jisho/hero.jpeg"
 
 previous: waves
-next: rebrand
+next: buskers
 ---
 
 
@@ -13,12 +13,8 @@ Jisho.org: a modern dictionary redesign
 
 UI Design / Web App
 
-Background
-----------
+Jisho.org is an online Japanese dictionary, I've relied on it countless times while learning the language and wanted to see if I could improve on it's minimalistic design. The following is a screenshot of it’s homepage.
 
-I started studying Japanese my sophomore year of college on a whim. Fast forward a few years later and I’m now here working in Japan using Japanese everyday. Learning Japanese hasn’t been easy, throughout my journey I’ve done all sorts of things from taking college classes, all the way to blogging about learning Japanese songs on the ukulele. One tool that I’ve found to be indispensable throughout these years has been the humble dictionary.
-
-My go to online dictionary has always been Jisho.org. I like it because it’s no frills. Other sites tend to clutter their website with ads, links to it’s partner sites, give me information I never asked for, but Jisho likes to keep it simple. The following is a screenshot of it’s homepage.
 
 ![Jisho website screenshot - homepage]({{ site.baseurl }}/assets/images/jisho/background_1.png)
 

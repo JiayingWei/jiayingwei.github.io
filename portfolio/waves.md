@@ -1,7 +1,7 @@
 ---
 layout: portfolio
 title: Waves
-hero_img: "waves/hero.png"
+hero_img: "waves/hero.jpeg"
 
 previous: buskers
 next: jisho
@@ -12,20 +12,13 @@ Waves: your personalized surf forecaster
 
 UX Design / UI Design / Mobile App
 
-Background
-----------
+All surfers know that no wave is alike. The conditions at sea are different from day to day and hour to hour. 
 
-In 2019 I went on a trip to Hawaii and took a beginners surf lesson. From there I quickly fell in love with the sport and I’ve been trying to catch as many waves as I can ever since.
-
-So one thing that many beginner surfers come to realise is that no wave is alike. The conditions at the shore are different from day to day, hour to hour, minute to minute. Sometimes you go and the waves are perfect, rolling in one after the other. Sometimes you go and there’s nothing.
-
-Because it’s so variable, surfers will often rely on these apps called surf forecasters to figure out when to hit the beach. These forecasters take a bunch meteorological data, analyze it, and then tell you what the conditions will be like for the next week or two out. Some popular ones are **Magical Seaweed** and **Surfline.** But as you can see below, these forecasts are not exactly the easiest to try to figure out.
+Because it’s so variable, surfers will often rely on surf forecasting apps to decide when to head for the beach. These forecasters take a bunch meteorological data, analyze it, and then tell you what the conditions will be for the next week or two. They coalesce a lot of useful information, but can be hard to decipher especially for beginners.
 
 ![Magical Seaweed & Surfline app screenshot]({{ site.baseurl }}/assets/images/waves/background_1.png)
 
-The best way to improve your surfing is to just go out and surf, but as a beginner, it can be easy to feel overwhelmed and intimidated by all this information.
-
-**Goal:** I wanted to design a _surf forecasting app_ that would encourage people to surf more by making that decision _easier_.
+I wanted to design a _surf forecasting app_ that would encourage people to surf more by making that decision _easier_.
 
 Analysis
 --------

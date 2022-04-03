@@ -1,10 +1,10 @@
-rebrand:
-  order: 4
-  tags: [Branding, Website, Illustration]
-  title: BitGym Rebrand
-  description: Fitness app for the wanderluster
-  thumbnail: rebrand_thumb.jpg
-  url: rebrand.html
+# rebrand:
+#   order: 4
+#   tags: [Branding, Website, Illustration]
+#   title: BitGym Rebrand
+#   description: Fitness app for the wanderluster
+#   thumbnail: rebrand_thumb.jpg
+#   url: rebrand.html
 buskers:
   order: 3
   tags: [User Research, UX Design, UI Design, Website]
