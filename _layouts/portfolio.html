@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="border-b border-gray-300 m-0 z-10 overflow-hidden flex items-center">
-	<img src="/assets/images/{{page.hero_img}}" class="w-full">
+	<img src="{{ site.baseurl }}/assets/images/{{page.hero_img}}" class="w-full">
 </div>
 <ul id ="TOC" class="self-start	hidden lg:block fixed top-16 m-8 uppercase tracking-wide z-0"></ul>
 <div class="-mb-16 bg-gradient-to-b from-white via-white relative h-20 w-48 z-10 self-start"></div>
@@ -21,8 +21,8 @@ layout: default
 		<!-- previous -->
 		<!-- project -->
 		<a class = "bg-white flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110"
-			href="/portfolio/{{site.data.portfolio[page.previous].url}}">
-			<img src="/assets/images/{{site.data.portfolio[page.previous].thumbnail}}">
+			href="{{ site.baseurl }}/portfolio/{{site.data.portfolio[page.previous].url}}">
+			<img src="{{ site.baseurl }}/assets/images/{{site.data.portfolio[page.previous].thumbnail}}">
 			<div class = "flex flex-col p-4">
 				<div class="flex flex-row flex-wrap gap-x-1 text-sm text-gray-500">
 					{% for tag in site.data.portfolio[page.previous].tags %}
@@ -44,8 +44,8 @@ layout: default
 		<!-- next -->
 		<!-- project -->
 		<a class = "bg-white flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110"
-			href="/portfolio/{{site.data.portfolio[page.next].url}}">
-			<img src="/assets/images/{{site.data.portfolio[page.next].thumbnail}}">
+			href="{{ site.baseurl }}/portfolio/{{site.data.portfolio[page.next].url}}">
+			<img src="{{ site.baseurl }}/assets/images/{{site.data.portfolio[page.next].thumbnail}}">
 			<div class = "flex flex-col p-4">
 				<div class="flex flex-row flex-wrap gap-x-1 text-sm text-gray-500">
 					<p>UX Design</p>
@@ -63,4 +63,4 @@ layout: default
     </div>
     <a href='/' class="button self-center bg-white shadow-xl hover:bg-green-300">Back to Home</a>
 </section>
-<script src="/assets/js/main.js"></script>
+<script src="{{ site.baseurl }}/assets/js/main.js"></script>

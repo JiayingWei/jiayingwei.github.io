@@ -19,7 +19,7 @@ During the research phase we wanted to interview as many buskers as we could. Lu
 
 In two short weeks we talked to over ten different people in a long form interview and from these interviews we were able to create three different personas.
 
-<img src="/assets/images/buskers/research_1.png" alt="Busker Personas">
+<img src="{{ site.baseurl }}/assets/images/buskers/research_1.png" alt="Busker Personas">
 
 In addition to the personas we started exploring some of the needs that were expressed by our users during the interviews. We organized what people were saying into six opportunity areas for improving the lives of buskers.
 
@@ -34,7 +34,7 @@ In addition to the personas we started exploring some of the needs that were exp
 
 Using these six opportunity areas we then went and brainstormed a bunch of ideas on index cards and then sorted them on a large piece of paper from pragmatic to fanciful.
 
-<img src="/assets/images/buskers/research_2.png" alt="Ideation Framework">
+<img src="{{ site.baseurl }}/assets/images/buskers/research_2.png" alt="Ideation Framework">
 
 We then took the most compelling ideas and fleshed them out into idea cards so that we could introduce them to our users. One idea that resonated with our users was born out of the issue of how audiences take videos of buskers all the time while performing, but those videos almost never make it back to them.
 
@@ -42,7 +42,7 @@ Our idea was a service that would help buskers find all the photos and videos th
 
 The following was the initial idea card for Lost & Found media we showed our users.
 
-<img src="/assets/images/buskers/research_3.png" alt="Lost &amp; Found Media Idea Card">
+<img src="{{ site.baseurl }}/assets/images/buskers/research_3.png" alt="Lost &amp; Found Media Idea Card">
 
 **Lost &amp; Found Media** addressed our buskers needs of wanting
 
@@ -75,7 +75,7 @@ First, an overview.
 
 For Lost &amp; Found Media’s homepage I’ve decided it to segment into 4 sections:
 
-<img src="/assets/images/buskers/UX_1.png" alt="Lost &amp; Found Media Homepage - Wireframe">
+<img src="{{ site.baseurl }}/assets/images/buskers/UX_1.png" alt="Lost &amp; Found Media Homepage - Wireframe">
 
   1. **The Hook.** What is the main allure of this app (helps you recover your untagged photos).
   2. **The Details.**  What are the other features that help you achieve what you want.
@@ -86,25 +86,25 @@ Now that we’re done with the overview, I want to break down some of my thought
 
 **The Hook**
 
-<img src="/assets/images/buskers/UX_2.png" alt="Lost &amp; Found Media Homepage - Wireframe (The Hook)">
+<img src="{{ site.baseurl }}/assets/images/buskers/UX_2.png" alt="Lost &amp; Found Media Homepage - Wireframe (The Hook)">
 
 For the hook, I came up with “Not Tagged? No Problem.” which I thought that was an attention grabbing tagline that described the key issue that many buskers were facing. I include various social media icons in the description as a helpful visual for explaining where images comes from and to build familiarity by including brands users already trust.
 
 **The Details**
 
-<img src="/assets/images/buskers/UX_3.png" alt="Lost &amp; Found Media Homepage - Wireframe (The Details)">
+<img src="{{ site.baseurl }}/assets/images/buskers/UX_3.png" alt="Lost &amp; Found Media Homepage - Wireframe (The Details)">
 
 In the details section I matched various user needs/aspirations with features in the app so they can start picturing how they might use this service.
 
 **Success Stories**
 
-<img src="/assets/images/buskers/UX_4.png" alt="Lost &amp; Found Media Homepage - Wireframe (Success Stories)">
+<img src="{{ site.baseurl }}/assets/images/buskers/UX_4.png" alt="Lost &amp; Found Media Homepage - Wireframe (Success Stories)">
 
 Testimonies are important because people always want to know what others think especially when it comes to things that are intangible like software or online shopping. It’s important to showcase how your service can help users achieve success.
 
 **Pricing**
 
-<img src="/assets/images/buskers/UX_5.png" alt="Lost &amp; Found Media Homepage - Wireframe (Pricing)">
+<img src="{{ site.baseurl }}/assets/images/buskers/UX_5.png" alt="Lost &amp; Found Media Homepage - Wireframe (Pricing)">
 
 For the pricing I wanted to really emphasize the fact that they could try the service for free. One of the biggest barriers to starting a new service is always the price, which is why so many services offer a free trial. It’s important to lower that initial barrier to get people through the door and using your service.
 
@@ -114,7 +114,7 @@ After the user has finished creating their account is logged in, the first thing
 
 To do this I used the following tactics,
 
-<img src="/assets/images/buskers/UX_6.png" alt="Lost &amp; Found Media Homepage - Wireframe (App - Initial Search)">
+<img src="{{ site.baseurl }}/assets/images/buskers/UX_6.png" alt="Lost &amp; Found Media Homepage - Wireframe (App - Initial Search)">
 
 1. Give them that satisfaction of pressing the start button, while we can skip this initial state by having users land on the “looking for media” page. Who doesn’t like turning something on for the first time and watching it whirl.
 2. Tell them that it’s going to take awhile and maybe they want to go and do something else so that they’re not just waiting.
@@ -123,7 +123,7 @@ To do this I used the following tactics,
 
 After results start flowing in, clicking on a image will allow the user to,
 
-<img src="/assets/images/buskers/UX_7.png" alt="Lost &amp; Found Media Homepage - Wireframe (App - Details)">
+<img src="{{ site.baseurl }}/assets/images/buskers/UX_7.png" alt="Lost &amp; Found Media Homepage - Wireframe (App - Details)">
 
 1. **Add it to their collections** where they can sort &amp; tag their favorite photos &amp; videos.
 2. **Share it** with their existing social media audience.
@@ -132,7 +132,7 @@ After results start flowing in, clicking on a image will allow the user to,
 
 If they choose to share that post, it pops up another window where they can,
 
-<img src="/assets/images/buskers/UX_8.png" alt="Lost &amp; Found Media Homepage - Wireframe (App - Share)">
+<img src="{{ site.baseurl }}/assets/images/buskers/UX_8.png" alt="Lost &amp; Found Media Homepage - Wireframe (App - Share)">
 
 1. **Choose what format to share in,** as a normal post or a story format.
 2. **Choose from multiple social media** to share all at once.
@@ -147,7 +147,7 @@ When working on UI design it’s important to consider the character of the app.
 
 To achieve a friendly look I decided to,
 
-<img src="/assets/images/buskers/UI_1.png" alt="Lost &amp; Found Media Homepage - UI Design (App - Details)">
+<img src="{{ site.baseurl }}/assets/images/buskers/UI_1.png" alt="Lost &amp; Found Media Homepage - UI Design (App - Details)">
 
 1. **Round the corners on some of UI elements** like buttons &amp; tabs
 2. Choose a **rounded san-serif font** for the text
@@ -156,23 +156,23 @@ To achieve a friendly look I decided to,
 
 After designing the major UI components of the app, I wanted to decide on the color pallet. Again, the tone that I’m going for is fun but also professional, so my candidates for my base colors were all from the bright but slightly dusty range. Some colors I tried were turquoise, a dusty pink, and a pinky beige.
 
-<img src="/assets/images/buskers/UI_2.png" alt="Lost &amp; Found Media Homepage - UI Design (App - Details color comparison)">
+<img src="{{ site.baseurl }}/assets/images/buskers/UI_2.png" alt="Lost &amp; Found Media Homepage - UI Design (App - Details color comparison)">
 
 While the pink and the beige were more whimsical, I ultimately went with turquoise for it’s more professional looking tone.
 
-<img src="/assets/images/buskers/UI_3.png" alt="Lost &amp; Found Media Homepage - UI Design (App - Details color comparison)">
+<img src="{{ site.baseurl }}/assets/images/buskers/UI_3.png" alt="Lost &amp; Found Media Homepage - UI Design (App - Details color comparison)">
 
 ### Homepage
 
 So the homepage wasn’t going to be too difficult to design. I already had my wireframe laid out, all I had to do was expand some of the design language I set when I designed the previous screens. One addition that I did add was an accent color (neon green) that would pop off the page and help draw people’s eyes to important items like the “Try For Free” button.
 
-<img src="/assets/images/buskers/UI_4.png" alt="Lost &amp; Found Media Homepage - UI Design (App - Details color comparison)">
+<img src="{{ site.baseurl }}/assets/images/buskers/UI_4.png" alt="Lost &amp; Found Media Homepage - UI Design (App - Details color comparison)">
 
 ### Logo Design
 
 The logo for Lost &amp; Found Media is simple, but I thought it had some cool symbolism so I’m going to take some time to introduce it.
 
-<img src="/assets/images/buskers/UI_5.png" alt="Lost &amp; Found Media Homepage - UI Design (App - Details color comparison)">
+<img src="{{ site.baseurl }}/assets/images/buskers/UI_5.png" alt="Lost &amp; Found Media Homepage - UI Design (App - Details color comparison)">
 
 
   + The larger circles symbolize the audience and the busker. The smaller circle symbolizes all those photos &amp; videos.
