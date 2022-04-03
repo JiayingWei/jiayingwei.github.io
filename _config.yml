@@ -10,10 +10,10 @@ baseurl: "https://jiayingwei.github.io"
 
 exclude:
   - bin/
-  - vendor/
+  # - vendor/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
+  # - node_modules/
   - package*.json
   - yarn.lock
   - postcss.config.js
@@ -21,3 +21,11 @@ exclude:
   - README.md
   - Makefile
   - netlify.toml
+
+include:
+  - node_modules/
+  - vendor/
+
+
+
+
