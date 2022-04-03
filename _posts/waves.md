@@ -18,7 +18,7 @@ So one thing that many beginner surfers come to realise is that no wave is alike
 
 Because it’s so variable, surfers will often rely on these apps called surf forecasters to figure out when to hit the beach. These forecasters take a bunch meteorological data, analyze it, and then tell you what the conditions will be like for the next week or two out. Some popular ones are **Magical Seaweed** and **Surfline.** But as you can see below, these forecasts are not exactly the easiest to try to figure out.
 
-![Magical Seaweed & Surfline app screenshot]({{ site.baseurl }}/assets/images/waves/background_1.png)
+![Magical Seaweed & Surfline app screenshot](/assets/images/waves/background_1.png)
 
 The best way to improve your surfing is to just go out and surf, but as a beginner, it can be easy to feel overwhelmed and intimidated by all this information.
 
@@ -29,7 +29,7 @@ Analysis
 
 So before I started designing, I wrote down all the factors that I would usually consider when deciding whether or not to go surfing.
 
-![Magical Seaweed app screenshot with numerical labels]({{ site.baseurl }}/assets/images/waves/analysis_1.png)
+![Magical Seaweed app screenshot with numerical labels](/assets/images/waves/analysis_1.png)
 
 1.  **Wave height** - This is the height of the wave from top to the bottom. Too small and there are no waves to surf, too large and it can be too dangerous to surf.
 2.  **Wind direction** - Wind direction can affect the shape of the wave. When the wind is blowing towards the ocean, also known as offshore wind, it helps the wave keep its shape allowing for a longer ride. The opposite, known as onshore wind, tends to flatten waves making it more difficult to ride.
@@ -41,11 +41,11 @@ On a typical week this is my personal routine for deciding when to go surf.
 
 **Step 1.** Narrow down the chart to just the days I can go surfing. For me that’s the weekends (Saturday & Sunday).
 
-![Magical Seaweed app partial screenshot showing weekly graph]({{ site.baseurl }}/assets/images/waves/analysis_2.png)
+![Magical Seaweed app partial screenshot showing weekly graph](/assets/images/waves/analysis_2.png)
 
 **Step 2.** See which one has larger waves, only because the waves haven’t been very big this winter. This week it is Sunday clocking in at 0-1ft.
 
-![Magical Seaweed app partial screenshot showing daily breakdown]({{ site.baseurl }}/assets/images/waves/analysis_3.png)
+![Magical Seaweed app partial screenshot showing daily breakdown](/assets/images/waves/analysis_3.png)
 
 UX Design
 ---------
@@ -57,7 +57,7 @@ Based on my analysis, there were a few things I wanted to change for my own app.
 
 My app would recommend users times to surf based on their availability. With this concept I mocked up a few wireframes, arriving at the following design.
 
-![Wireframe of Waves app - homescreen]({{ site.baseurl }}/assets/images/waves/UX_1.png)
+![Wireframe of Waves app - homescreen](/assets/images/waves/UX_1.png)
 
 1.  **Recommendations for times to surf are organized into cards.** Each card details when, where, wave height, wind conditions, and a brief comment on the conditions that day.
 2.  **Cards are organized by day.** By swiping horizontally users can see alternative times & locations for the same day.
@@ -69,7 +69,7 @@ Because the recommendations are tailored to the user’s availability, I knew th
 
 While I briefly considered a typical form type interface for the onboarding, I ultimately decided that by splitting these questions into multiple pages, it would keep things more simple.
 
-![Wireframe of Waves app - onboarding]({{ site.baseurl }}/assets/images/waves/UX_2.png)
+![Wireframe of Waves app - onboarding](/assets/images/waves/UX_2.png)
 
 This onboarding process would ask about:
 
@@ -87,7 +87,7 @@ So now that I had my basic design hashed out, I was ready to start with the user
 
 Some decisions I made for the UI Design was to,
 
-![UI Design of Waves app - homepage]({{ site.baseurl }}/assets/images/waves/UI_1.png)
+![UI Design of Waves app - homepage](/assets/images/waves/UI_1.png)
 
 1.  **Keep to a single color pallet.** I found that the Magical Seaweed app had used color to indicate states, but I was never quite sure what it meant (ex. Does green=good & red=bad, or does green=weak & red=strong?), this would also mitigate some of the accessibility issues when it comes to using colors like green and orange together.
 2.  **Use the graph titles as data labels.** It’s difficult to fit a bunch of information onto a tiny screen, and one way that mobile sacrifices usability is that it’s hard to label each individual bar. I decided to compromise so that when a certain bar is highlighted (by tapping on it), the corresponding graph title changes to reflect the value.
@@ -96,7 +96,7 @@ Some decisions I made for the UI Design was to,
 
 On the onboarding screens I decided to add a few fun illustrations for both visual interest and added helpful information.
 
-![UI Design of Waves app - homepage]({{ site.baseurl }}/assets/images/waves/UI_2.png)
+![UI Design of Waves app - homepage](/assets/images/waves/UI_2.png)
 
 ## Credit
 

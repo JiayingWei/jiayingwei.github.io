@@ -16,7 +16,7 @@ UI Design / Web App
 Jisho.org is an online Japanese dictionary, I've relied on it countless times while learning the language and wanted to see if I could improve on it's minimalistic design. The following is a screenshot of it’s homepage.
 
 
-![Jisho website screenshot - homepage]({{ site.baseurl }}/assets/images/jisho/background_1.png)
+![Jisho website screenshot - homepage](/assets/images/jisho/background_1.png)
 
 While I really like it’s simple aesthetic, I thought that there were a few opportunities to bump up it’s polish, to simplify some of the text, and organize the information so that it’s even easier to use.
 
@@ -29,7 +29,7 @@ When redesigning anything I like to start off by doing a basic analysis of the c
 
 Here are a few things that stuck out to me about Jisho’s homepage,
 
-![Jisho website screenshot - homepage with annotations]({{ site.baseurl }}/assets/images/jisho/analysis_1.png)
+![Jisho website screenshot - homepage with annotations](/assets/images/jisho/analysis_1.png)
 
 1.  **Search features are hidden away under a dropdown.** By making the available filters more visible you can teach a user how to start using some of the more advanced features like searching only “words” or searching for “sentences.”
 2.  **There is a lot of text.** While the explanation of the site is important, this amount of text would cause many users to gloss over it. Even just some simple styling of the text would make it more visually interesting, drawing people’s eyes to it.
@@ -39,7 +39,7 @@ After analyzing the homepage, another important page to take a look at is the re
 
 Here are a few things that stick out to me about Jisho’s results page,
 
-![Jisho website screenshot - results with annotations]({{ site.baseurl }}/assets/images/jisho/analysis_2.png)
+![Jisho website screenshot - results with annotations](/assets/images/jisho/analysis_2.png)
 
 1.  **There are 2 different types of search results, “Words” and “Names”.** They’re currently organized in a column structure, which means both types of results are immediately visible to the user. As a heavy user of Jisho, I’m almost never searching for names. Hierarchy wise, words are probably much more important.
 2.  **It’s difficult to read the Japanese example sentences.** As a non-Japanese native, we’re biased against reading the Japanese. The furigana (which tell you how to read the Chinese Kanji characters) while useful, break up the structure of the sentence making it further difficult to read.
@@ -56,7 +56,7 @@ After doing my analysis on jisho.org, there were a few things I wanted to do for
 
 In order to accomplish this, I made the following design changes to the **homepage,**
 
-![Jisho redesign - homepage]({{ site.baseurl }}/assets/images/jisho/UI_1.png)
+![Jisho redesign - homepage](/assets/images/jisho/UI_1.png)
 
 1.  **Increased the prominence of the search bar** since it’s the most important item on the page. This was accomplished by making it larger, bringing it closer to the center of the page, adding a drop shadow, and tinting the background grey so that it’d pop more.
 2.  **Brought the filters out of the dropdown menu.** Before, the filters were hidden by the dropdown, but now that they’re out in the open, we not only increase the chances that people will use them, but also suggest to our users how to use other #filters.
@@ -64,7 +64,7 @@ In order to accomplish this, I made the following design changes to the **homepa
 
 For the **results page** I did the following,
 
-![Jisho redesign - results page]({{ site.baseurl }}/assets/images/jisho/UI_2.png)
+![Jisho redesign - results page](/assets/images/jisho/UI_2.png)
 
 1.  **Organized the search results into cards.** This way there’s more distinction between each search result.
 2.  **Got rid of the 2 column structure.** With a single column structure, “Names” now come after “Words” in the search hierarchy, making it less cluttered. By displaying how many results each filter has, the user can further refine their search if they want to.
