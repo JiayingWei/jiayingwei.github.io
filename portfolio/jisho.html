@@ -1,0 +1,194 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Jisho.org | Jiaying’s Portfolio</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Jisho.org" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Welcome to Jiaying Wei’s portfolio website." />
+<meta property="og:description" content="Welcome to Jiaying Wei’s portfolio website." />
+<link rel="canonical" href="http://0.0.0.0:4000/portfolio/jisho.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/portfolio/jisho.html" />
+<meta property="og:site_name" content="Jiaying’s Portfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Jisho.org" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Welcome to Jiaying Wei’s portfolio website.","headline":"Jisho.org","url":"http://0.0.0.0:4000/portfolio/jisho.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="shortcut icon" type="image/svg" href="/assets/images/favicon.svg"/>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+
+  <title></title>
+
+
+</head>
+<html>
+  <div id = "header" class="bg-white fixed w-full px-10 top-0 flex flex-row items-center h-16 z-50
+
+    shadow-lg
+
+">
+    <a href = "/"><img src="/assets/images/logo.svg"></a>
+</div>
+<body>
+  <section class="mt-16 flex flex-col items-center">
+    <div class="border-b border-gray-300 m-0 z-10 overflow-hidden flex items-center">
+	<img src="/assets/images/jisho/hero.jpeg" class="w-full">
+</div>
+<ul id ="TOC" class="self-start	hidden lg:block fixed top-16 m-8 uppercase tracking-wide z-0"></ul>
+<div class="-mb-16 bg-gradient-to-b from-white via-white relative h-20 w-48 z-10 self-start"></div>
+<section id = "portfolio" class="flex flex-col max-w-screen-sm mx-4">
+    <h1 id="jishoorg-a-modern-dictionary-redesign">Jisho.org: a modern dictionary redesign</h1>
+
+<p>UI Design / Web App</p>
+
+<p>Jisho.org is an online Japanese dictionary, I’ve relied on it countless times while learning the language and wanted to see if I could improve on it’s minimalistic design. The following is a screenshot of it’s homepage.</p>
+
+<p><img src="/assets/images/jisho/background_1.png" alt="Jisho website screenshot - homepage" /></p>
+
+<p>While I really like it’s simple aesthetic, I thought that there were a few opportunities to bump up it’s polish, to simplify some of the text, and organize the information so that it’s even easier to use.</p>
+
+<p><strong>Goal:</strong> For this case study I wanted to redesign the desktop version of Jisho.org focusing on <em>modernizing it’s look</em> and encouraging people to <em>explore advanced search capabilities</em> like sentences lookup and filtering.</p>
+
+<h2 id="analysis">Analysis</h2>
+
+<p>When redesigning anything I like to start off by doing a basic analysis of the current design.</p>
+
+<p>Here are a few things that stuck out to me about Jisho’s homepage,</p>
+
+<p><img src="/assets/images/jisho/analysis_1.png" alt="Jisho website screenshot - homepage with annotations" /></p>
+
+<ol>
+  <li><strong>Search features are hidden away under a dropdown.</strong> By making the available filters more visible you can teach a user how to start using some of the more advanced features like searching only “words” or searching for “sentences.”</li>
+  <li><strong>There is a lot of text.</strong> While the explanation of the site is important, this amount of text would cause many users to gloss over it. Even just some simple styling of the text would make it more visually interesting, drawing people’s eyes to it.</li>
+  <li><strong>Example overload.</strong> There are so many options for examples for ways to search here that a user can almost feel overwhelmed. By reducing the examples we can actually increase people’s attention to this section.</li>
+</ol>
+
+<p>After analyzing the homepage, another important page to take a look at is the results page after I enter my search. The following screen is the result for “Hiyake”, which means sunburn.</p>
+
+<p>Here are a few things that stick out to me about Jisho’s results page,</p>
+
+<p><img src="/assets/images/jisho/analysis_2.png" alt="Jisho website screenshot - results with annotations" /></p>
+
+<ol>
+  <li><strong>There are 2 different types of search results, “Words” and “Names”.</strong> They’re currently organized in a column structure, which means both types of results are immediately visible to the user. As a heavy user of Jisho, I’m almost never searching for names. Hierarchy wise, words are probably much more important.</li>
+  <li><strong>It’s difficult to read the Japanese example sentences.</strong> As a non-Japanese native, we’re biased against reading the Japanese. The furigana (which tell you how to read the Chinese Kanji characters) while useful, break up the structure of the sentence making it further difficult to read.</li>
+  <li><strong>Other dictionaries are probably not frequently accessed.</strong> If a user was frustrated enough with the experience on Jisho, they would probably just google another Japanese-English dictionary, rather than choosing from one of these many links.</li>
+</ol>
+
+<h2 id="ui-design">UI Design</h2>
+
+<p>After doing my analysis on jisho.org, there were a few things I wanted to do for the redesign.</p>
+
+<ul>
+  <li>I wanted to keep the monochromatic color scheme because it keeps the site looking simple.</li>
+  <li>I wanted to emphasize the filtering capabilities.</li>
+  <li>I wanted to tweak the information hierarchy to make the site appear even cleaner than it already is.</li>
+</ul>
+
+<p>In order to accomplish this, I made the following design changes to the <strong>homepage,</strong></p>
+
+<p><img src="/assets/images/jisho/UI_1.png" alt="Jisho redesign - homepage" /></p>
+
+<ol>
+  <li><strong>Increased the prominence of the search bar</strong> since it’s the most important item on the page. This was accomplished by making it larger, bringing it closer to the center of the page, adding a drop shadow, and tinting the background grey so that it’d pop more.</li>
+  <li><strong>Brought the filters out of the dropdown menu.</strong> Before, the filters were hidden by the dropdown, but now that they’re out in the open, we not only increase the chances that people will use them, but also suggest to our users how to use other #filters.</li>
+  <li><strong>Organized the examples into a pageable card.</strong> This increases the prominence of the examples, reduces distractions, while still allowing people to browse through other examples if they want.</li>
+</ol>
+
+<p>For the <strong>results page</strong> I did the following,</p>
+
+<p><img src="/assets/images/jisho/UI_2.png" alt="Jisho redesign - results page" /></p>
+
+<ol>
+  <li><strong>Organized the search results into cards.</strong> This way there’s more distinction between each search result.</li>
+  <li><strong>Got rid of the 2 column structure.</strong> With a single column structure, “Names” now come after “Words” in the search hierarchy, making it less cluttered. By displaying how many results each filter has, the user can further refine their search if they want to.</li>
+  <li><strong>Made the example Japanese sentences easier to read,</strong> by removing the furigana and increasing the contrast of the Japanese sentence vs the English translation. When you hover over a Kanji it’ll display the reading, that way it’s only visible when necessary.</li>
+</ol>
+
+<h2 id="credit">Credit</h2>
+
+<ul>
+  <li><a href="https://jisho.org/">Jisho.org</a> is run by Kim, Miwa, and Andrew</li>
+  <li>Icons from <a href="https://material.io/">Material.io</a></li>
+  <li>Social media icons from <a href="https://icons8.com/">Icons8</a></li>
+</ul>
+
+</section>
+<div class="bg-gradient-to-t from-white via-white relative h-20 w-48 z-10 self-start"></div>
+
+<!-- Other Projects -->
+<section class = "w-full flex flex-col items-center bg-gray-200 z-10"> 
+	<div class = "flex flex-col gap-8 p-8">
+		
+		<h2 class="text-center"> Other Projects</h2>
+
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-10 lg:gap-10 mx-4 lg:mx-10 max-w-screen-md">
+		<!-- previous -->
+		<!-- project -->
+		<a class = "bg-white flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110"
+			href="/portfolio/waves.html">
+			<img src="/assets/images/waves_thumb.png">
+			<div class = "flex flex-col p-4">
+				<div class="flex flex-row flex-wrap gap-x-1 text-sm text-gray-500">
+					
+					
+						<p>UX Design</p>
+						
+					
+					
+						<p class = "text-gray-300"> / </p>
+						<p>UI Design</p>
+						
+					
+					
+						<p class = "text-gray-300"> / </p>
+						<p>Mobile App</p>
+						
+					
+				</div> 
+				<h3>Waves</h3>
+				<p>
+					Your Personalized Surf Forecaster
+				</p>
+			</div>
+		</a>
+		
+		<!-- next -->
+		<!-- project -->
+		<a class = "bg-white flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110"
+			href="/portfolio/buskers.html">
+			<img src="/assets/images/buskers_thumb.png">
+			<div class = "flex flex-col p-4">
+				<div class="flex flex-row flex-wrap gap-x-1 text-sm text-gray-500">
+					<p>UX Design</p>
+					<p class = "text-gray-300"> / </p>
+					<p> UI Design </p>
+					<p class = "text-gray-300"> / </p>
+					<p> Mobile App </p>
+				</div> 
+				<h3> Lost & Found Media </h3>
+				<p>
+					Recovering lost photos for street performers
+				</p>
+			</div>
+		</a>
+    </div>
+    <a href='/' class="button self-center bg-white shadow-xl hover:bg-green-300">Back to Home</a>
+</section>
+<script src="/assets/js/main.js"></script>
+  </section>
+
+  
+</body>
+<div id = "footer" class="bg-white w-full px-10 flex flex-row items-center justify-end h-16 p-2">
+  <p class="text-blue-400">Thanks for scrolling all the way down :&#41;	</p>
+  <!-- <img src="/assets/images/footer.png" class="h-full opacity-75"> -->
+</div>
+
+</html>
