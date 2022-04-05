@@ -12,7 +12,7 @@
     }
 
     h2 {
-      @apply text-3xl;
+      @apply text-3xl uppercase tracking-wider text-gray-800;
     }
     h3{
       @apply text-xl ;
