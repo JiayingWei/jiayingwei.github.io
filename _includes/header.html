@@ -1,7 +1,13 @@
-<div id = "header" class="bg-white fixed w-full px-10 top-0 flex flex-row items-center h-16 z-50
-{% if page.title != "home"%}
-    shadow-lg
-{% endif %}
-">
-    <a href = "/"><img src="{{ site.baseurl }}/assets/images/logo.svg"></a>
+<div id = "header" class="bg-robin_gray text-electric_purple px-4 fixed w-full md:px-10 top-0 h-16 z-50 flex flex-row items-center">
+    
+    <a href = "/" class="text-3xl sm:text-4xl font-bold">Jiaying Wei</a>
+    
+    <ul class="flex flex-row flex-1 md:gap-x-10 gap-x-4 justify-end">
+        <li>
+            <a href = "/" class="hover:underline sm:block hidden">Home</a>
+        </li>
+        <li>
+            <a href = "{{ site.baseurl }}/assets/images/resume.pdf"  target="_blank" class="hover:underline">Resume</a>
+        </li>
+    </ul>
 </div>

@@ -11,7 +11,13 @@
 {% endif %}
 
 </head>
-<html>
+{% if page.url == "/" %}
+  <html class="bg-robin_gray">
+{% else %}
+  <html class="bg-white">
+{% endif %}
+
+
   {% include header.html %}
 <body>
   <section class="mt-16 flex flex-col items-center">

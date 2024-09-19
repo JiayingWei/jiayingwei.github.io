@@ -11,7 +11,7 @@ next: buskers
 Jisho.org: a modern dictionary redesign
 =======================================
 
-UI Design / Web App
+<span style="color:#6032E3">2020 / UI Design / Web App</span>
 
 Jisho.org is an online Japanese dictionary, I've relied on it countless times while learning the language and wanted to see if I could improve on it's minimalistic design. The following is a screenshot of it’s homepage.
 

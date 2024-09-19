@@ -10,7 +10,7 @@ next: jisho
 Waves: your personalized surf forecaster
 ========================================
 
-UX Design / UI Design / Mobile App
+<span style="color:#6032E3">2020 / UI+UX Design / Mobile App</span>
 
 All surfers know that no wave is alike. The conditions at sea are different from day to day and hour to hour. 
 

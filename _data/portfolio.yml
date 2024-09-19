@@ -7,21 +7,21 @@
 #   url: rebrand.html
 buskers:
   order: 3
-  tags: [User Research, UX Design, UI Design, Website]
+  tags: [2020, User Research, UI+UX Design, Website]
   title: Lost & Found Media
   description: Recovering lost photos for street performers				
   thumbnail: buskers_thumb.png
   url: buskers.html
 waves:
   order: 2
-  tags: [UX Design, UI Design, Mobile App]
+  tags: [2020, UI+UX Design, Mobile App]
   title: Waves
   description: Your Personalized Surf Forecaster				
   thumbnail: waves_thumb.png
   url: waves.html
 jisho:
   order: 1
-  tags: [UI Design, Web App]
+  tags: [2020, UI Design, Web App]
   title: Jisho.org
   description: Modern redesign of a Japanese dictionary
   thumbnail: jisho_thumb.png

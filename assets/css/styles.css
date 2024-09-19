@@ -8,25 +8,29 @@
 /* Write your styles below this line. */
 @layer base {
     h1 {
-      @apply text-4xl;
+      @apply text-4xl font-bold;
     }
 
     h2 {
-      @apply text-3xl uppercase tracking-wider text-gray-800;
+      @apply text-3xl font-semibold;
     }
     h3{
-      @apply text-xl ;
+      @apply text-xl font-semibold;
     }
     p, li{
-      @apply text-lg font-light	leading-relaxed;
+      @apply text-lg font-normal leading-relaxed;
     }
 
-    #portfolio > p, #portfolio > img {
-        @apply my-2 ;
+    #portfolio > p, #portfolio > img{
+        @apply my-4 ;
       }
 
+    #portfolio > ol > li, #portfolio > ul > li {
+        @apply my-1 ;
+    }
+
     #portfolio > h1, #portfolio > h2, #portfolio > h3{
-      @apply mt-6 leading-none;
+      @apply mt-8 leading-snug;
     }
 
     #portfolio > ol{
@@ -46,37 +50,28 @@
     }
 
     .button{
-        @apply text-base px-5 h-10 rounded inline-flex items-center cursor-pointer bg-gray-200 tracking-wide; 
+        @apply text-base px-5 h-10 rounded inline-flex items-center cursor-pointer bg-white tracking-wide text-electric_purple font-bold transform; 
     }
 
     html {
-      font-family: Jost, system-ui, sans-serif;
+      font-family: Manrope, system-ui, sans-serif;
       scroll-padding-top: 5rem;
     }  
 
     @font-face {
-      font-family: "Jost";
-      font-weight: 300;
-      font-style: normal;
-      src: url("../fonts/Jost-Light.ttf");
+      font-family: "Manrope";
+      font-weight: 1 999;
+      src: url("../fonts/Manrope-VariableFont_wght.ttf");
       font-display: swap;
     }
 
     @font-face {
-      font-family: "Jost";
+      font-family: "PTMono";
       font-weight: 400;
-      font-style: normal;
-      src: url("../fonts/Jost-Regular.ttf");
+      src: url("../fonts/PTMono-Regular.ttf");
       font-display: swap;
     }
 
-    @font-face {
-      font-family: "Jost";
-      font-weight: 600;
-      font-style: normal;
-      src: url("../fonts/Jost-SemiBold.ttf");
-      font-display: swap;
-    }
 }
 
 /* Write your styles above this line. */
