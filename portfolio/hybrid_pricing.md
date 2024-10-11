@@ -10,7 +10,11 @@ next: waves
 
 # ecoATM: Hybrid Pricing
 
-<span style="color:#6032E3">2020 / UI+UX Design / User Research / Web App</span>
+<div class="flex flex-row flex-wrap gap-2 mt-4 text-sm font-serif ">
+    {% for tag in site.data.portfolio.hybrid_pricing.tags %}
+        <p class="text-electric_purple bg-robin_gray rounded-sm px-2">{{ tag }}</p>
+    {% endfor %}
+</div> 
 
 ## Background
 EcoATM has over 6000+ kiosks located in grocery stores all over the United States. Our kiosks pay people & buy old phones that would otherwise be lying unused in a drawer, or improperly tossed away in a landfill. 

@@ -12,7 +12,11 @@ next: buskers
 Jisho.org: a modern dictionary redesign
 =======================================
 
-<span style="color:#6032E3">2020 / UI Design / Web App</span>
+<div class="flex flex-row flex-wrap gap-2 mt-4 text-sm font-serif ">
+    {% for tag in site.data.portfolio.jisho.tags %}
+        <p class="text-electric_purple bg-robin_gray rounded-sm px-2">{{ tag }}</p>
+    {% endfor %}
+</div> 
 
 Jisho.org is an online Japanese dictionary, I've relied on it countless times while learning the language and wanted to see if I could improve on it's minimalistic design. The following is a screenshot of it’s homepage.
 

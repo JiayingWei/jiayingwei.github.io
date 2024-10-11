@@ -10,7 +10,11 @@ next: waves
 
 # Lost &amp; Found Media: recovering photos for street performers
 
-<span style="color:#6032E3">2020 / UI+UX Design / User Research / Web App</span>
+<div class="flex flex-row flex-wrap gap-2 mt-4 text-sm font-serif ">
+    {% for tag in site.data.portfolio.buskers.tags %}
+        <p class="text-electric_purple bg-robin_gray rounded-sm px-2">{{ tag }}</p>
+    {% endfor %}
+</div> 
 
 Lost & Found Media is a concept idea for recovering pictures & videos taken of buskers, people who perform in public for tips. Our team of 5 developed this idea in a 6 week deepdive broken down into three phases, research, ideate, and prototyping.
 

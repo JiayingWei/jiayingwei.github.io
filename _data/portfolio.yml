@@ -7,12 +7,19 @@
 #   url: rebrand.html
 
 hybrid_pricing:
-  order: 4
+  order: 5
   tags: [2023, UI+UX Design, User Research]
   title: ecoATM Hybrid Pricing
   description: Pricing strategy for smartphone buying kiosks				
   thumbnail: thumb_hybrid_pricing.png
   url: hybrid_pricing.html
+postcards:
+  order: 4
+  tags: [2022, illustrations]
+  title: Postcards from...
+  description: A series of illustrations made for the BitGym App
+  thumbnail: thumb_postcards.png
+  url: postcards.html
 buskers:
   order: 3
   tags: [2020, User Research, UI+UX Design, Website]
