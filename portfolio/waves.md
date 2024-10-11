@@ -2,6 +2,7 @@
 layout: portfolio
 title: Waves
 hero_img: "waves/hero.jpeg"
+show_TOC: "true"
 
 previous: buskers
 next: jisho

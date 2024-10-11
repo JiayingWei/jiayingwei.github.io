@@ -7,7 +7,7 @@
       ],
       "title": "BitGym Rebrand",
       "description": "Fitness app for the wanderluster",
-      "thumbnail": "rebrand_thumb.png"
+      "thumbnail": "thumb_rebrand.png"
     },
     "buskers": {
       "tags": [
@@ -19,7 +19,7 @@
       ],
       "title": "Lost & Found Media",
       "description": "Recovering lost photos for street performers",
-      "thumbnail": "buskers_thumb.png"
+      "thumbnail": "thumb_buskers.png"
     },
     "jisho": {
       "tags": [
@@ -31,7 +31,7 @@
       ],
       "title": "Lost & Found Media",
       "description": "Recovering lost photos for street performers",
-      "thumbnail": "jisho_thumb.png"
+      "thumbnail": "thumb_jisho.png"
     },
     "waves": {
       "tags": [
@@ -43,6 +43,6 @@
       ],
       "title": "Lost & Found Media",
       "description": "Recovering lost photos for street performers",
-      "thumbnail": "waves_thumb.png"
+      "thumbnail": "thumb_waves.png"
     }
   }

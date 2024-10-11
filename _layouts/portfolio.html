@@ -4,7 +4,10 @@ layout: default
 <div class="border-b border-gray-300 m-0 z-10 overflow-hidden flex items-center">
 	<img src="{{ site.baseurl }}/assets/images/{{page.hero_img}}" class="w-full">
 </div>
+
+{% if page.show_TOC == "true" %}
 <ul id ="TOC" class="self-start	hidden lg:block fixed top-16 m-8 tracking-wide z-0"></ul>
+{% endif %}
 <div class="-mb-16 bg-gradient-to-b from-white via-white relative h-20 w-48 z-10 self-start"></div>
 <section id = "portfolio" class="flex flex-col max-w-screen-md mx-4">
     {{ content }}

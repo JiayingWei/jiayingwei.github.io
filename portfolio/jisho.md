@@ -2,6 +2,7 @@
 layout: portfolio
 title: Jisho.org
 hero_img: "jisho/hero.jpeg"
+show_TOC: "true"
 
 previous: waves
 next: buskers

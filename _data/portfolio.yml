@@ -5,25 +5,33 @@
 #   description: Fitness app for the wanderluster
 #   thumbnail: rebrand_thumb.jpg
 #   url: rebrand.html
+
+hybrid_pricing:
+  order: 4
+  tags: [2023, UI+UX Design, User Research]
+  title: ecoATM Hybrid Pricing
+  description: Pricing strategy for smartphone buying kiosks				
+  thumbnail: thumb_hybrid_pricing.png
+  url: hybrid_pricing.html
 buskers:
   order: 3
   tags: [2020, User Research, UI+UX Design, Website]
   title: Lost & Found Media
   description: Recovering lost photos for street performers				
-  thumbnail: buskers_thumb.png
+  thumbnail: thumb_buskers.png
   url: buskers.html
 waves:
   order: 2
   tags: [2020, UI+UX Design, Mobile App]
   title: Waves
   description: Your Personalized Surf Forecaster				
-  thumbnail: waves_thumb.png
+  thumbnail: thumb_waves.png
   url: waves.html
 jisho:
   order: 1
   tags: [2020, UI Design, Web App]
   title: Jisho.org
   description: Modern redesign of a Japanese dictionary
-  thumbnail: jisho_thumb.png
+  thumbnail: thumb_jisho.png
   url: jisho.html
 
