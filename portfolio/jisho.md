@@ -3,6 +3,7 @@ layout: portfolio
 title: Jisho.org
 hero_img: "jisho/hero.jpeg"
 show_TOC: "true"
+folder: jisho
 
 previous: gazelle
 next: hybrid_pricing

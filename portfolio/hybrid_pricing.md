@@ -3,6 +3,7 @@ layout: portfolio
 title: Hybrid Pricing
 hero_img: hybrid_pricing/hero.jpg
 show_TOC: "false"
+folder: hybrid_pricing
 
 previous: gazelle
 next: waves

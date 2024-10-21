@@ -3,6 +3,7 @@ layout: portfolio
 title: Postcards from...
 hero_img: postcards/hero.jpg
 show_TOC: "false"
+folder: postcards
 
 previous: gazelle
 next: hybrid_pricing

@@ -3,6 +3,7 @@ layout: portfolio
 title: Gazelle Shopify Replatform
 hero_img: gazelle/hero.jpg
 show_TOC: "false"
+folder: gazelle
 
 previous: hybrid_pricing
 next: waves
