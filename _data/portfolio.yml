@@ -5,7 +5,13 @@
 #   description: Fitness app for the wanderluster
 #   thumbnail: rebrand_thumb.jpg
 #   url: rebrand.html
-
+gazelle:
+  order: 6
+  tags: [2024, UI+UX Design, E-Commerce]
+  title: Gazelle Shopify Replatform
+  description: Redesign of E-commerce site for used & refurbished phones				
+  thumbnail: thumb_gazelle.png
+  url: gazelle.html
 hybrid_pricing:
   order: 5
   tags: [2023, UI+UX Design, User Research]
