@@ -4,8 +4,8 @@ title: Jisho.org
 hero_img: "jisho/hero.jpeg"
 show_TOC: "true"
 
-previous: waves
-next: buskers
+previous: gazelle
+next: hybrid_pricing
 ---
 
 

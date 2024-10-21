@@ -4,8 +4,8 @@ title: Postcards from...
 hero_img: postcards/hero.jpg
 show_TOC: "false"
 
-previous: jisho
-next: waves
+previous: gazelle
+next: hybrid_pricing
 ---
 
 # Postcards from...

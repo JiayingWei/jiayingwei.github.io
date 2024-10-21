@@ -4,8 +4,8 @@ title: Lost & Found Media
 hero_img: buskers/hero.jpeg
 show_TOC: "true"
 
-previous: jisho
-next: waves
+previous: gazelle
+next: hybrid_pricing
 ---
 
 # Lost &amp; Found Media: recovering photos for street performers

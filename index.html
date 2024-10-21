@@ -2,21 +2,26 @@
 layout: default
 title: Home
 ---
-<section class = "bg-robin_gray flex flex-col md:flex-row py-8 sm:py-16 w-full gap-10 lg:gap-20 items-center justify-center px-4"> 
-	<img src="{{ site.baseurl }}/assets/images/homepage_photo.jpeg" class="md:w-1/2 lg:w-1/3 w-full rounded-3xl">
-	<div class="flex flex-col gap-10 md:w-1/2 lg:w-1/3">
+<section class = "bg-robin_gray flex flex-col md:flex-row py-8 sm:py-16 w-full gap-4 md:gap-10 lg:gap-20 items-start justify-center px-4 sm:px-10 overflow-hidden"> 
+	<div class="sm:max-w-xl sm:w-1/3 md:w-1/2 mx-auto md:mx-0">
+		<lottie-player src="{{ site.baseurl }}/assets/images/tea_mini.json" background="transparent"  speed="1" loop autoplay></lottie-player>
+	</div>
+	<div class="flex flex-col gap-10 w-full md:w-1/2 xl:w-1/3">
 		<div class="w-full leading-snug flex flex-col gap-4">
-		<p>
-			Hello, I’m Jiaying, a <b>Senior Product Designer</b> for <b>mobile</b> and <b>web applications</b>.
-		</p>
+		<h1 class="text-4xl md:text-5xl mt-4 text-electric_purple">
+			Hello, I’m Jiaying
+		</h1>
 
 		<p>
-			My engineering background that leads me to approach design from problem solving perspective.</p>
-		<p>
-			I currently live in the <b>San Francisco Bay area</b>.
+			10 years ago while pursuing an engineering degree, I decided I wanted to be a designer because:
 		</p>
+			<ol class="list-decimal list-inside	ml-2">
+				<li> I liked art </li>
+				<li> I wanted to problem solve directly with people </li>
+
+			</ol>
 		<p>
-			In my free time I play go, knit, and run. 
+			While my understanding of UX design has evolved a lot over the years, these two ideas still guide my approch to creating meaningful, user-centered experiences.
 		</p>
 		</div>
 		<div class="flex flex-row flex-wrap gap-4">
@@ -27,12 +32,12 @@ title: Home
 	</div>
 </section>
 
-<section class = "py-16 w-full bg-white bg-opacity-50 flex flex-col items-center"> 
+<section class = "pt-16 pb-32 w-full bg-white bg-opacity-50 flex flex-col items-center"> 
 	<div class = "flex flex-col gap-16">
 
-		<h1 class="text-center text-gray-800">Portfolio Projects</h1>
+		<h1 class="text-center text-electric_purple">Portfolio Projects</h1>
 
-		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-10 lg:gap-10 mx-4 lg:mx-10">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-10 lg:gap-x-10 lg:gap-y-20 mx-4 lg:mx-10 max-w-screen-xl">
 
 		<!-- testing -->
 		{% for project in site.data.portfolio %}
