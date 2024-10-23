@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 <section class = "bg-robin_gray flex flex-col md:flex-row py-8 sm:py-16 w-full gap-4 md:gap-10 lg:gap-20 items-start justify-center px-4 sm:px-10 overflow-hidden"> 
-	<div class="sm:max-w-xl sm:w-1/3 md:w-1/2 mx-auto md:mx-0">
+	<div class="sm:max-w-xl sm:w-1/3 md:w-1/2 mx-auto md:mx-0 md:h-75vh">
 		<lottie-player src="{{ site.baseurl }}/assets/images/tea_mini.json" background="transparent"  speed="1" loop autoplay></lottie-player>
 	</div>
 	<div class="flex flex-col gap-10 w-full md:w-1/2 xl:w-1/3">
@@ -11,18 +11,17 @@ title: Home
 		<h1 class="text-4xl md:text-5xl mt-4 text-electric_purple">
 			Hello, I’m Jiaying
 		</h1>
+			<p class="text-lg">
+				10 years ago while pursuing an engineering degree, I decided I wanted to be a designer because:
+			</p>
+				<ol class="list-decimal list-inside	ml-2">
+					<li class="text-lg"> I liked art </li>
+					<li class="text-lg"> I wanted to problem solve directly with people </li>
 
-		<p>
-			10 years ago while pursuing an engineering degree, I decided I wanted to be a designer because:
-		</p>
-			<ol class="list-decimal list-inside	ml-2">
-				<li> I liked art </li>
-				<li> I wanted to problem solve directly with people </li>
-
-			</ol>
-		<p>
-			While my understanding of UX design has evolved a lot over the years, these two ideas still guide my approch to creating meaningful, user-centered experiences.
-		</p>
+				</ol>
+			<p class="text-lg">
+				While my understanding of UX design has evolved a lot over the years, these two ideas still guide my approch to creating meaningful, user-centered experiences.
+			</p>
 		</div>
 		<div class="flex flex-row flex-wrap gap-4">
 			<a href="{{ site.baseurl }}/assets/images/resume.pdf" class="button hover:-translate-y-2 hover:shadow-md duration-200"  target="_blank">Resume</a>
@@ -37,14 +36,14 @@ title: Home
 
 		<h1 class="text-center text-electric_purple">Portfolio Projects</h1>
 
-		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-10 lg:gap-x-10 lg:gap-y-20 mx-4 lg:mx-10 max-w-screen-xl">
+		<div style="max-width: 1100px" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-10 lg:gap-x-10 lg:gap-y-20 mx-4 lg:mx-10">
 
 		<!-- testing -->
 		{% for project in site.data.portfolio %}
 		<a class = "bg-white flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110 rounded-3xl overflow-hidden"
 			href="{{ site.baseurl }}/portfolio/{{project.last.url}}">
 			<img src="{{ site.baseurl }}/assets/images/{{project.last.thumbnail}}">
-			<div class = "flex flex-col p-6 gap-1">
+			<div class = "flex flex-col p-5 gap-1">
 				<div class="flex flex-row flex-wrap gap-2 text-sm font-serif ">
 					{% for tag in project.last.tags %}
 						<p class="text-electric_purple bg-robin_gray rounded-sm px-2">{{ tag }}</p>

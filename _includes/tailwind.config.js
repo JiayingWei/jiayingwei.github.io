@@ -16,6 +16,9 @@ module.exports = {
           electric_purple: '#6032E3',
           robin_gray: '#E3EBF0'
             },
+        height: {
+          '75vh':'75vh',
+          }
         },
     },
     variants: {

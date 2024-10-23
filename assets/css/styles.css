@@ -9,21 +9,23 @@
     }
 
     h2 {
-      @apply text-3xl font-semibold;
+      @apply text-2xl font-semibold;
     }
     h3{
       @apply text-xl font-semibold;
     }
     p, li{
-      @apply text-lg font-normal leading-relaxed;
+      @apply text-base font-normal leading-relaxed;
     }
 
+
+
     #portfolio > p, #portfolio > img{
-        @apply my-4 ;
+        @apply my-4 text-lg;
       }
 
     #portfolio > ol > li, #portfolio > ul > li {
-        @apply my-1 ;
+        @apply my-1 text-lg;
     }
 
     #portfolio > h1, #portfolio > h2, #portfolio > h3{
