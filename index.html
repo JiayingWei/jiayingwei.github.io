@@ -2,19 +2,19 @@
 layout: default
 title: Home
 ---
-<section class = "bg-robin_gray flex flex-col md:flex-row py-8 sm:py-16 w-full gap-4 md:gap-10 lg:gap-20 items-start justify-center px-4 sm:px-10 overflow-hidden"> 
+<section class = "bg-dark_purple flex flex-col md:flex-row py-8 sm:py-16 w-full gap-4 md:gap-10 lg:gap-20 items-start justify-center px-4 sm:px-10 overflow-hidden"> 
 	<div class="sm:max-w-xl sm:w-1/3 md:w-1/2 mx-auto md:mx-0 md:h-75vh">
 		<lottie-player src="{{ site.baseurl }}/assets/images/tea_mini.json" background="transparent"  speed="1" loop autoplay></lottie-player>
 	</div>
-	<div class="flex flex-col gap-10 w-full md:w-1/2 xl:w-1/3">
+	<div class="flex flex-col gap-10 w-full md:w-1/2 xl:w-1/4">
 		<div class="w-full leading-snug flex flex-col gap-4">
-		<h1 class="text-4xl md:text-5xl mt-4 text-electric_purple">
+		<h1 class="text-4xl md:text-5xl mt-4 text-white">
 			Hello, I’m Jiaying
 		</h1>
-			<p class="text-lg">
+			<p class="text-lg text-light_purple">
 				I’ve been working as a <b>UX designer</b> for <b>web & mobile platforms</b> for the past <b>8 years</b>. My experience spans across the fields of e-commerce, e-waste, fitness, and IoT. 
 			</p>
-			<p class="text-lg">
+			<p class="text-lg text-light_purple">
 				My focus is always on helping people, making things easier to use, solving complex problems, and bringing more beauty to our digital world.			</p>
 			</p>
 		</div>
@@ -26,22 +26,22 @@ title: Home
 	</div>
 </section>
 
-<section class = "pt-16 pb-32 w-full bg-white bg-opacity-50 flex flex-col items-center"> 
+<section class = "pt-16 pb-32 w-full bg-white bg-opacity-50 flex flex-col items-center bg-gradient-to-b from-light_purple to-light_blue"> 
 	<div class = "flex flex-col gap-16">
 
-		<h1 class="text-center text-electric_purple">Portfolio Projects</h1>
+		<h1 class="text-center text-purple-900">Portfolio Projects</h1>
 
 		<div style="max-width: 1100px" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-10 lg:gap-x-10 lg:gap-y-20 mx-4 lg:mx-10">
 
 		<!-- testing -->
 		{% for project in site.data.portfolio %}
-		<a class = "bg-white flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110 rounded-3xl overflow-hidden"
+		<a class = "bg-white bg-opacity-50 flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110 rounded-3xl overflow-hidden"
 			href="{{ site.baseurl }}/portfolio/{{project.last.url}}">
 			<img src="{{ site.baseurl }}/assets/images/{{project.last.thumbnail}}">
 			<div class = "flex flex-col p-5 gap-1">
 				<div class="flex flex-row flex-wrap gap-2 text-sm font-serif ">
 					{% for tag in project.last.tags %}
-						<p class="text-electric_purple bg-robin_gray rounded-sm px-2">{{ tag }}</p>
+						<p class="text-electric_purple bg-white rounded-sm px-2">{{ tag }}</p>
 					{% endfor %}
 				</div> 
 				<h2>{{project.last.title}}</h2>
