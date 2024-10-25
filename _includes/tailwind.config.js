@@ -14,6 +14,7 @@ module.exports = {
           transparent: 'transparent',
           current: 'currentColor',
           electric_purple: '#6032E3',
+          lightest_purple: '#DBD1FF',
           light_purple: '#C7BAF2',
           dark_purple: '#483877',
           light_blue: '#C6DEE4',

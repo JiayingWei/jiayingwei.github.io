@@ -71,7 +71,21 @@
       font-display: swap;
     }
 
+/* Spotlight overlay with CSS variables */
+.spotlight-wrapper::before {
+  content: '';
+  position: fixed;
+  top: var(--y);
+  left: var(--x);
+  width: 1000px;
+  height: 1000px;
+  background: radial-gradient(circle at center, #F9E0D91A, transparent 50%);
+  pointer-events: none;
+  mix-blend-mode: screen;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+}
+
 }
 
 /* Write your styles above this line. */
-
