@@ -22,7 +22,10 @@ module.exports = {
             },
         height: {
           '75vh':'75vh',
-          }
+          },
+        screens: {
+          '2xl': '1536px'
+        }
         },
     },
     variants: {
