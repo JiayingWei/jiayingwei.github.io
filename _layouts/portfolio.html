@@ -12,58 +12,52 @@ layout: default
 	 </picture>	 
 </div>
 
-{% if page.show_TOC == "true" %}
-<ul id ="TOC" class="self-start	hidden lg:block fixed top-16 m-8 tracking-wide z-0"></ul>
-<div class="-mb-16 bg-gradient-to-b from-white via-white relative h-20 w-48 z-10 self-start"></div>
-{% endif %}
 <section id = "portfolio" class="flex flex-col max-w-screen-md mx-4">
     {{ content }}
 </section>
 <div class="hidden lg:block bg-gradient-to-t from-white via-white relative h-20 w-48 z-10 self-start"></div>
 
 <!-- Other Projects -->
-<section class = "w-full flex flex-col items-center bg-robin_gray bg-opacity-50 z-10"> 
-	<div class = "flex flex-col gap-10 py-10">
+<section class = "w-full flex flex-col items-center bg-robin_gray bg-opacity-50 py-10 gap-10 z-0"> 
 		
 		<h2 class="text-center"> Other Projects</h2>
 
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-10 lg:gap-10 mx-4 lg:mx-10 max-w-screen-md">
 		<!-- previous -->
 		<!-- project -->
-		<a class = "bg-white flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110 rounded-3xl overflow-hidden"
-			href="{{ site.baseurl }}/portfolio/{{site.data.portfolio[page.previous].url}}">
-			<img src="{{ site.baseurl }}/assets/images/{{site.data.portfolio[page.previous].thumbnail}}">
-			<div class = "flex flex-col p-4 gap-2">
-				<div class="flex flex-row flex-wrap gap-2 text-sm text-gray-500">
-					{% for tag in site.data.portfolio[page.previous].tags %}
-						<p class="text-electric_purple bg-robin_gray rounded-sm px-2">{{ tag }}</p>
-					{% endfor %}
-				</div> 
-				<h3 class="font-semibold text-2xl">{{site.data.portfolio[page.previous].title}}</h3>
-				<p>
-					{{site.data.portfolio[page.previous].description}}
-				</p>
-			</div>
-		</a>
+			<a class = "bg-white flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110 rounded-3xl overflow-hidden"
+				href="{{ site.baseurl }}/portfolio/{{site.data.portfolio[page.previous].url}}">
+				<img src="{{ site.baseurl }}/assets/images/{{site.data.portfolio[page.previous].thumbnail}}">
+				<div class = "flex flex-col p-4 gap-2">
+					<div class="flex flex-row flex-wrap gap-2 text-sm text-gray-500">
+						{% for tag in site.data.portfolio[page.previous].tags %}
+							<p class="text-electric_purple bg-robin_gray rounded-sm px-2">{{ tag }}</p>
+						{% endfor %}
+					</div> 
+					<h3 class="font-semibold text-2xl">{{site.data.portfolio[page.previous].title}}</h3>
+					<p>
+						{{site.data.portfolio[page.previous].description}}
+					</p>
+				</div>
+			</a>
 		
-		<!-- next -->
-		<!-- project -->
-		<a class = "bg-white flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110 rounded-3xl overflow-hidden"
-			href="{{ site.baseurl }}/portfolio/{{site.data.portfolio[page.next].url}}">
-			<img src="{{ site.baseurl }}/assets/images/{{site.data.portfolio[page.next].thumbnail}}">
-			<div class = "flex flex-col p-4 gap-2">
-				<div class="flex flex-row flex-wrap gap-2 text-sm text-gray-500">
-					{% for tag in site.data.portfolio[page.previous].tags %}
-					<p class="text-electric_purple bg-robin_gray rounded-sm px-2">{{ tag }}</p>
-					{% endfor %}
-				</div> 
-				<h3 class="font-semibold text-2xl"> {{site.data.portfolio[page.next].title}} </h3>
-				<p>
-					{{site.data.portfolio[page.next].description}}
-				</p>
-			</div>
-		</a>
-    </div>
+		<!-- next project -->
+			<a class = "bg-white flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110 rounded-3xl overflow-hidden"
+				href="{{ site.baseurl }}/portfolio/{{site.data.portfolio[page.next].url}}">
+				<img src="{{ site.baseurl }}/assets/images/{{site.data.portfolio[page.next].thumbnail}}">
+				<div class = "flex flex-col p-4 gap-2">
+					<div class="flex flex-row flex-wrap gap-2 text-sm text-gray-500">
+						{% for tag in site.data.portfolio[page.previous].tags %}
+						<p class="text-electric_purple bg-robin_gray rounded-sm px-2">{{ tag }}</p>
+						{% endfor %}
+					</div> 
+					<h3 class="font-semibold text-2xl"> {{site.data.portfolio[page.next].title}} </h3>
+					<p>
+						{{site.data.portfolio[page.next].description}}
+					</p>
+				</div>
+			</a>
+		</div>
     <a href='/' class="button self-center shadow-lg hover:-translate-y-2 duration-200">Back to Home</a>
 </section>
 <script src="{{ site.baseurl }}/assets/js/portfolio.js"></script>
