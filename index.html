@@ -17,7 +17,7 @@ title: Home
 				I’ve been working as a <b>UX designer</b> for <b>web & mobile platforms</b> for the past <b>7 years</b>. My experience spans across the fields of e-commerce, e-waste, fitness, and IoT. 
 			</p>
 			<p class="text-lg text-lightest_purple">
-				My focus is always on helping people, making things easier to use, solving complex problems, and bringing more beauty to our digital world.			</p>
+				My focus is always on helping people, making things easier to use, solving complex problems, and bringing more beauty to our digital world.
 			</p>
 		</div>
 		<div class="flex flex-row flex-wrap gap-4">
@@ -36,24 +36,24 @@ title: Home
 		<div style="max-width: 1100px" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-10 lg:gap-x-10 lg:gap-y-20 mx-4 lg:mx-10">
 
 		<!-- testing -->
-		{% for project in site.data.portfolio %}
-		<a class = "bg-white bg-opacity-50 flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110 rounded-3xl overflow-hidden"
-			href="{{ site.baseurl }}/portfolio/{{project.last.url}}">
-			<img src="{{ site.baseurl }}/assets/images/{{project.last.thumbnail}}">
-			<div class = "flex flex-col p-5 gap-1">
-				<div class="flex flex-row flex-wrap gap-2 text-sm font-serif ">
-					{% for tag in project.last.tags %}
-						<p class="text-electric_purple bg-white rounded-sm px-2">{{ tag }}</p>
-					{% endfor %}
-				</div> 
-				<h2>{{project.last.title}}</h2>
-				<p>
-					{{project.last.description}}
-				</p>
-			</div>
-		</a>
-		{% endfor %}
-
+			{% for project in site.data.portfolio %}
+			<a class = "bg-white bg-opacity-50 flex flex-col shadow-xl transition duration-200 transform sm:hover:scale-110 rounded-3xl overflow-hidden"
+				href="{{ site.baseurl }}/portfolio/{{project.last.url}}">
+				<img src="{{ site.baseurl }}/assets/images/{{project.last.thumbnail}}">
+				<div class = "flex flex-col p-5 gap-1">
+					<div class="flex flex-row flex-wrap gap-2 text-sm font-serif ">
+						{% for tag in project.last.tags %}
+							<p class="text-electric_purple bg-white rounded-sm px-2">{{ tag }}</p>
+						{% endfor %}
+					</div> 
+					<h2>{{project.last.title}}</h2>
+					<p>
+						{{project.last.description}}
+					</p>
+				</div>
+			</a>
+			{% endfor %}
+		</div>
 	</div>
 </section>
 

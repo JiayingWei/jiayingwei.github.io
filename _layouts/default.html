@@ -1,3 +1,9 @@
+{% if page.url == "/" %}
+  <html class="bg-dark_purple">
+{% else %}
+  <html class="bg-white">
+{% endif %}
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
@@ -10,17 +16,12 @@
 {% if page.title %}
   <title>{{ title }}</title>
 {% endif %}
-
 </head>
-{% if page.url == "/" %}
-  <html class="bg-dark_purple">
-{% else %}
-  <html class="bg-white">
-{% endif %}
 
+<body>
 
   {% include header.html %}
-<body>
+
   <section class="mt-16 flex flex-col items-center">
     {{ content }}
   </section>
@@ -28,7 +29,9 @@
   {% if jekyll.environment == 'production' %}
   {% include analytics.html %}
   {% endif %}
+
+  {% include footer.html %}
+
 </body>
-{% include footer.html %}
 
 </html>

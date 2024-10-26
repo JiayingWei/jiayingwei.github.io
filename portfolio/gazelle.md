@@ -2,7 +2,6 @@
 layout: portfolio
 title: Gazelle Shopify Replatform
 hero_img: gazelle/hero.jpg
-show_TOC: "false"
 folder: gazelle
 
 previous: hybrid_pricing
@@ -25,11 +24,12 @@ However, since then the landscape for electronic re-commerce has shifted quite a
 Increasingly, Gazelle started to look more and more dated, as our large amount of tech debt made it difficult to revamp our website. 
 
 <img src="{{ site.baseurl }}/assets/images/gazelle/1.png" 
-    onmouseover= "this.src='{{ site.baseurl }}/assets/images/gazelle/1 hover.png'" 
-    onmouseout="this.src='{{ site.baseurl }}/assets/images/gazelle/1.png'"
+    data-default-src="{{ site.baseurl }}/assets/images/gazelle/1.png"
+    data-alt-src="{{ site.baseurl }}/assets/images/gazelle/1 hover.png"
+    onclick="toggleImage(this)"
     alt="This is what our site looked like in April of 2024">
 
-<p class="text-electric_purple text-center font-bold">This is what our site looked like in April of 2024 (mouse over to see the new homepage)</p>
+<p class="text-electric_purple text-center font-bold">This is what our site looked like in April of 2024 (click to see the new homepage)</p>
 
 In 2023, Shopify had announced that it was deprecating support for the existing theme that Gazelle was running on. This meant that if we didn’t switch themes before the deadline, we could risk our store shutting down. This finally gave us the push to migrate our theme, fix our tech debt, and bring Gazelle back into the race with our competitors. 
 
@@ -57,16 +57,17 @@ Great question, this is how our product page looks on Dawn right out of the box.
 
 <p class="text-electric_purple text-center font-bold">Our product page using default Shopify Dawn Theme</p>
 
-Some of the features customized just on the product page were, **cosmetic condition tooltip, improved color swatches, improved color swatches, carrier & storage variants, protection plans, unique selling points banner**.
+Some of the features customized just on the product page were, **cosmetic condition tooltip, improved color swatches, carrier & storage variants, protection plans, unique selling points banner**.
 
-Mouse over the next screenshot to see where we added our customizations.
+Click the next screenshot to see where we added our customizations.
 
 <img src="{{ site.baseurl }}/assets/images/gazelle/4.png" 
-    onmouseover= "this.src='{{ site.baseurl }}/assets/images/gazelle/4 hover.png'" 
-    onmouseout="this.src='{{ site.baseurl }}/assets/images/gazelle/4.png'"
+    data-default-src="{{ site.baseurl }}/assets/images/gazelle/4.png"
+    data-alt-src="{{ site.baseurl }}/assets/images/gazelle/4 hover.png"
+    onclick="toggleImage(this)"
     alt="This is our newly launched product page">
 
-<p class="text-electric_purple text-center font-bold">This is our newly launched product page (mouse over the screenshot to see annotations)</p>
+<p class="text-electric_purple text-center font-bold">This is our newly launched product page (Click the image to see annotations)</p>
 
 As you can see, there were a lot of customizations made not only to add existing features to our e-commerce shop, but also to make it match our brand identity.
 

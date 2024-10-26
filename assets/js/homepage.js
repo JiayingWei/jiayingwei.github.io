@@ -11,7 +11,6 @@ document.addEventListener('scroll', function() {
   
   // Get the distance of the target div from the top of the page
   const targetDivPosition = targetDiv.getBoundingClientRect().top;
-  console.log(targetDivPosition)
 
   // Get the current scroll position
   const scrollPosition = window.scrollY + window.innerHeight;

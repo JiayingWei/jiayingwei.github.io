@@ -2,7 +2,6 @@
 layout: portfolio
 title: Jisho.org
 hero_img: "jisho/hero.jpeg"
-show_TOC: "true"
 folder: jisho
 
 previous: gazelle
@@ -19,14 +18,14 @@ Jisho.org: a modern dictionary redesign
     {% endfor %}
 </div> 
 
-Jisho.org is an online Japanese dictionary, I've relied on it countless times while learning the language and wanted to see if I could improve on it's minimalistic design. The following is a screenshot of it’s homepage.
+Jisho.org is an online Japanese dictionary, I've relied on it countless times while learning the language and wanted to see if I could improve on its minimalistic design. The following is a screenshot of it’s homepage.
 
 
 ![Jisho website screenshot - homepage]({{ site.baseurl }}/assets/images/jisho/background_1.png)
 
-While I really like it’s simple aesthetic, I thought that there were a few opportunities to bump up it’s polish, to simplify some of the text, and organize the information so that it’s even easier to use.
+While I really like its simple aesthetic, I thought that there were a few opportunities to bump up its polish, to simplify some of the text, and organize the information so that it’s even easier to use.
 
-**Goal:** For this case study I wanted to redesign the desktop version of Jisho.org focusing on _modernizing it’s look_ and encouraging people to _explore advanced search capabilities_ like sentences lookup and filtering.
+**Goal:** For this case study I wanted to redesign the desktop version of Jisho.org focusing on _modernizing its look_ and encouraging people to _explore advanced search capabilities_ like sentences lookup and filtering.
 
 Analysis
 --------

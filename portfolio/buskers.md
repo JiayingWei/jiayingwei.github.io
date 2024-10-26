@@ -2,7 +2,6 @@
 layout: portfolio
 title: Lost & Found Media
 hero_img: buskers/hero.jpeg
-show_TOC: "true"
 folder: buskers
 
 previous: gazelle
