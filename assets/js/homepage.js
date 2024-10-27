@@ -15,10 +15,14 @@ document.addEventListener('scroll', function() {
   // Get the current scroll position
   const scrollPosition = window.scrollY + window.innerHeight;
 
-  // Change header background when the scroll position reaches the target div
-  if (targetDivPosition < header.offsetHeight) {
-    header.classList.add("bg-dark_purple") // Change to the desired color
-  } else {
-    header.classList.remove("bg-dark_purple"); // Default header background color
+  // Apply effect only if on desktop
+  if (window.innerWidth > 600){
+    // Change header background when the scroll position reaches the target div
+    if (targetDivPosition < header.offsetHeight) {
+      header.classList.add("bg-dark_purple") // Change to the desired color
+    } else {
+      header.classList.remove("bg-dark_purple"); // Default header background color
+    }
   }
-});
+}
+);
