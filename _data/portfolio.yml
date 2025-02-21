@@ -26,25 +26,25 @@ postcards:
   description: A series of illustrations made for the BitGym App
   thumbnail: thumb_postcards.png
   url: postcards.html
-buskers:
-  order: 3
-  tags: [2020, User Research, UI+UX Design, Website]
-  title: Lost & Found Media
-  description: Recovering lost photos for street performers				
-  thumbnail: thumb_buskers.png
-  url: buskers.html
-waves:
-  order: 2
-  tags: [2020, UI+UX Design, Mobile App]
-  title: Waves
-  description: Your Personalized Surf Forecaster				
-  thumbnail: thumb_waves.png
-  url: waves.html
-jisho:
-  order: 1
-  tags: [2020, UI Design, Web App]
-  title: Jisho.org
-  description: Modern redesign of a Japanese dictionary
-  thumbnail: thumb_jisho.png
-  url: jisho.html
+# buskers:
+#   order: 3
+#   tags: [2020, User Research, UI+UX Design, Website]
+#   title: Lost & Found Media
+#   description: Recovering lost photos for street performers				
+#   thumbnail: thumb_buskers.png
+#   url: buskers.html
+# waves:
+#   order: 2
+#   tags: [2020, UI+UX Design, Mobile App]
+#   title: Waves
+#   description: Your Personalized Surf Forecaster				
+#   thumbnail: thumb_waves.png
+#   url: waves.html
+# jisho:
+#   order: 1
+#   tags: [2020, UI Design, Web App]
+#   title: Jisho.org
+#   description: Modern redesign of a Japanese dictionary
+#   thumbnail: thumb_jisho.png
+#   url: jisho.html
 
