@@ -50,7 +50,7 @@
     }
 
     .button{
-        @apply text-base px-5 h-10 rounded inline-flex justify-center items-center cursor-pointer bg-white tracking-wide text-electric_purple font-bold transform; 
+        @apply text-xl px-5 h-12 rounded inline-flex justify-center items-center cursor-pointer bg-white tracking-wide text-electric_purple font-bold transform; 
     }
 
     html {
