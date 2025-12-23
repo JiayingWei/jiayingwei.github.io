@@ -1,17 +1,14 @@
 {% if page.url == "/" %}
-<div id = "header" class="bg-dark_purple text-white px-4 fixed w-full md:px-10 top-0 h-16 z-50 flex flex-row items-center">
+<div id = "header" class="bg-baby_blue text-electric_purple px-4 fixed w-full md:px-10 top-0 h-20 z-50 flex flex-row items-center">
     {% else %}
- <div id = "header" class="bg-robin_gray text-electric_purple px-4 fixed w-full md:px-10 top-0 h-16 z-50 flex flex-row items-center">
+ <div id = "header" class="bg-baby_blue text-electric_purple px-4 fixed w-full md:px-10 top-0 h-20 z-50 flex flex-row items-center">
  {% endif %}
     
     <a href = "/" class="text-3xl sm:text-4xl font-bold">Jiaying Wei</a>
     
-    <ul class="flex flex-row flex-1 md:gap-x-10 gap-x-4 justify-end">
-        <li>
-            <a href = "/" class="hover:underline sm:block hidden text-lg">Home</a>
-        </li>
-        <li>
-            <a href = "{{ site.baseurl }}/assets/images/resume.pdf"  target="_blank" class="hover:underline text-lg">Resume</a>
-        </li>
-    </ul>
+    <div class="flex flex-row flex-1 md:gap-x-10 gap-x-4 justify-end">
+         <a href="{{ site.baseurl }}/#portfolio" class="button px-0 bg-transparent">Portfolio</a>
+        <a href="https://www.linkedin.com/in/jiayingwei/" target="_blank" class="button px-0 bg-transparent">LinkedIn</a>
+        <a href="{{ site.baseurl }}/assets/images/resume.pdf" class="button hover:-translate-y-2 hover:shadow-md duration-200"  target="_blank">Resume</a>
+    </div>
 </div>

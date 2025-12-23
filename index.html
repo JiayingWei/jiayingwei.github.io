@@ -4,34 +4,61 @@ title: Home
 ---
 <script src="{{ site.baseurl }}/assets/js/homepage.js"></script>
 <div class="spotlight-wrapper">
-<section class = "bg-dark_purple flex flex-col md:flex-row py-8 sm:py-16 w-full gap-4 md:gap-10 lg:gap-20 items-start justify-center px-4 sm:px-10 overflow-hidden"> 
-	<div class="sm:max-w-xl sm:w-1/3 md:w-1/2 mx-auto md:mx-0 md:h-75vh z-30">
-		<lottie-player src="{{ site.baseurl }}/assets/images/tea_mini.json" background="transparent"  speed="1" loop autoplay></lottie-player>
-	</div>
-	<div class="flex flex-col gap-10 w-full md:w-1/2 xl:w-1/3 2xl:w-1/3 z-30">
-		<div class="w-full leading-snug flex flex-col gap-4">
-		<h1 class="text-4xl md:text-5xl mt-4 text-white">
-			Hello, I’m Jiaying
-		</h1>
-			<p class="text-xl text-lightest_purple font-bold">
-				I design <span class="font-bold text-white"> recommerce </span> experiences that streamline <span class="font-bold text-white">trade‑ins & boost conversion</span> across <span class="font-bold text-white">digital and physical touchpoints.</span></p>
-			<p class="text-xl text-lightest_purple ">
-				At ecoATM & Gazelle, I help users sell their mobile phones through tools like our “Price Your Device” widgets—guiding them from self identifying their device all the way to mail-in or drop-off at our kiosks.</span></p>
+<section class = "bg-baby_blue flex justify-center"> 
+	<div class="max-w-screen-xl flex flex-col md:flex-row py-8 sm:py-16 w-full gap-4 md:gap-10 lg:gap-20 items-start justify-center px-4 sm:px-10 overflow-hidden">
+		<div class="sm:w-1/3 mx-auto md:mx-0 md:h-75vh z-30">
+			<lottie-player src="{{ site.baseurl }}/assets/images/tea_mini.json" background="transparent"  speed="1" loop autoplay></lottie-player>
 		</div>
-		<div class="flex flex-row flex-wrap gap-4">
-			<a href="{{ site.baseurl }}/assets/images/resume.pdf" class="button hover:-translate-y-2 hover:shadow-md duration-200"  target="_blank">Resume</a>
-			<a href="https://www.linkedin.com/in/jiayingwei/" target="_blank" class="button hover:-translate-y-2 hover:shadow-md duration-200">LinkedIn</a>
-			<a href="mailto:jywei02@gmail.com" target="_blank" class="button hover:-translate-y-2 hover:shadow-md duration-200">Email</a>
+		<div class="flex flex-col gap-10 w-full sm:w-2/3 z-30">
+			<div class="w-full leading-snug flex flex-col gap-4 text-electric_purple text-xl">
+			<h1 class="text-4xl md:text-5xl mt-4 ">
+				Hello, I’m Jiaying
+			</h1>
+			<p>
+				I’m a <strong>practical product designer</strong> who can balance <strong>customer, business & engineering needs.</strong> I strive to be a critical thinker who can investigate problems independently, but also work collaboratively across departments.
+			</p>
+			<p>
+				I am extremely <strong>detail oriented</strong> in every part of my work, ranging from documenting designs, to writing tickets, to facilitating meetings. As a teammate I pride myself as someone who works to unblock others. 
+			</p>
+
+			<ul class="list-disc list-inside">
+				<li>
+					<strong>8 years</strong> of experience as a UX designer
+				</li>
+				<li>
+					Experience designing for <strong>responsive web & mobile apps</strong>
+				</li>
+				<li>
+					Experience with <strong>front-end development</strong>
+				</li>
+				<li>
+					<strong>Worked in:</strong> E-commerce, Recommerce, IoT Apps, & Fitness tech
+				</li>
+			</ul>
+
+			<p>
+				<strong>Professional interests I want to explore more of:</strong>
+			</p>
+
+			<ul class="list-disc list-inside">
+				<li>
+					Front-end prototyping
+				</li>
+				<li>
+					Design systems
+				</li>
+			</ul>
+
+		</div>
 		</div>
 	</div>
 </section>
 
-<section id = "portfolio" class = "pt-16 pb-32 w-full bg-white bg-opacity-50 flex flex-col items-center bg-gradient-to-b from-light_purple to-light_blue"> 
-	<div class = "flex flex-col gap-16 z-30">
+<section id = "portfolio" class = "pt-16 pb-32 w-full flex flex-col gap-16 z-30 items-center bg-gradient-to-b from-grad_purple to-grad_blue"> 
 
-		<h1 class="text-center text-purple-900">Portfolio Projects</h1>
+		<h1 class="text-center text-electric_purple">Portfolio Projects</h1>
 
-		<div style="max-width: 1100px" class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-x-4 gap-y-10 lg:gap-x-10 lg:gap-y-20 mx-4 lg:mx-10">
+		<div class="max-w-screen-xl grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-x-4 gap-y-10 lg:gap-x-10 lg:gap-y-20 mx-4 lg:mx-10">
 
 		<!-- testing -->
 			{% for project in site.data.portfolio %}
@@ -55,37 +82,29 @@ title: Home
 			</a>
 			{% endfor %}
 		</div>
-	</div>
 </section>
 
-<section class = "py-16 w-full flex flex-col items-center max-w-screen-lg hidden"> 
+<section class = "py-16 w-full flex flex-col items-center bg-passion_purple text-lavender"> 
 	<div class = "flex flex-col gap-16">
 		
-		<h2 class="text-center"> Passionate Pursuits</h2>
+		<h1 class="text-center text-white"> Get to know me</h1>
 
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-10 lg:gap-10 mx-4 lg:mx-10">
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-10 lg:gap-x-16 mx-4 lg:mx-10">
 		<!-- passionate pursuit -->
-			<div class = "bg-gray-100 flex flex-col">
-				<img src="{{ site.baseurl }}/assets/images/pp_go.jpg">
-				<div class = "flex flex-col p-4">
-					<h3>Journey to 1-Dan</h3>
-					<p>
-						My love for the boardgame Go started as a kid with a little-known manga called Hikaru no Go. Since learning the game in college, I’ve been on again & off again with the Covid-19 pandemic rekindling my Go bug. My goal is to achieve 1-Dan by 2025. Follow my journey on <a href="https://online-go.com/player/777194/" target="_blank">OGS</a>.
-					</p>
-				</div>
+			<div class = "flex flex-col gap-6">
+				<img src="{{ site.baseurl }}/assets/images/pp_go.jpg" class="rounded-3xl">
+				<p>
+					I am an organizer for my local go club. I maintain our website and direct annual tournaments. Visit our website at <a href="http://www.eastbaygo.org" target="_blank">www.eastbaygo.org</a>.
+				</p>
 			</div>
 		
 		<!-- passionate pursuit -->
-			<div class = "bg-gray-100 flex flex-col ">
-				<img src="{{ site.baseurl }}/assets/images/pp_spanish.jpg">
-				<div class = "flex flex-col p-4">
-					<h3>Holá, estoy aprendiendo Español</h3>
-					<p>
-						After spending the last few years studying Japanese, I am finally ready to take on a new language. Learning Spanish opens so many doors for travel and I’m excited to have begun this journey. Follow my progress on <a href ="https://www.duolingo.com/profile/Jiaying33948" target="_blank">Duolingo</a>.
-					</p>
-				</div>
+			<div class = "flex flex-col gap-6">
+				<img src="{{ site.baseurl }}/assets/images/pp_go.jpg" class="rounded-3xl">
+				<p>
+					I love sewing and knitting. Almost half of my wardrobe is made entirely by me. Click to see examples
+				</p>
 			</div>
-		</div>
 	</div>
 </section>
 </div>

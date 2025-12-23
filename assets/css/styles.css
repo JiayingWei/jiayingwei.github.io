@@ -16,7 +16,7 @@
     }
     
     p, li{
-      @apply text-base font-normal leading-relaxed;
+      @apply text-xl font-normal leading-relaxed;
     }
 
 
@@ -50,7 +50,7 @@
     }
 
     .button{
-        @apply text-xl px-5 h-12 rounded inline-flex justify-center items-center cursor-pointer bg-white tracking-wide text-electric_purple font-bold transform; 
+        @apply text-xl px-6 h-12 rounded-3xl inline-flex justify-center items-center cursor-pointer bg-white tracking-wide text-electric_purple font-bold transform; 
     }
 
     html {

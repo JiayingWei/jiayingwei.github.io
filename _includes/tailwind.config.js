@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "jit",
     purge: [
       './**/*.html',
       './assets/js/*.js'
@@ -13,12 +14,12 @@ module.exports = {
         colors: {
           transparent: 'transparent',
           current: 'currentColor',
-          electric_purple: '#6032E3',
-          lightest_purple: '#D1C4FF',
-          light_purple: '#C7BAF2',
-          dark_purple: '#483877',
-          light_blue: '#C6DEE4',
-          robin_gray: '#E3EBF0'
+          electric_purple: '#2E03A8',
+          baby_blue: '#E3EBF0',
+          lavender: '#E6DFFF',
+          grad_purple:'#C7BAF2',
+          grad_blue: '#C6DEE4',
+          passion_purple:'#483877'
             },
         height: {
           '75vh':'75vh',
