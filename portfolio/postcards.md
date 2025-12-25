@@ -1,7 +1,8 @@
 ---
 layout: portfolio
 title: Postcards from...
-hero_img: postcards/hero.jpg
+hero_img_desktop: /assets/images/postcards/hero.jpg
+hero_img_mobile: /assets/images/postcards/hero_mobile.png
 folder: postcards
 
 previous: gazelle

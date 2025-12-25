@@ -5,17 +5,17 @@ layout: default
 	<picture>
 		<source 
 		   media="(min-width: 650px)"
-		   srcset="{{ site.baseurl }}/assets/images/{{ page.folder }}/hero.jpg">
+		   srcset="{{ site.baseurl }}{{ page.hero_img_desktop}}">
 		<source 
-		   srcset="{{ site.baseurl }}/assets/images/{{ page.folder }}/hero_mobile.png">
-		   <img src="{{ site.baseurl }}/assets/images/{{ page.folder }}/hero.jpg" class="w-full">
+		   srcset="{{ site.baseurl }}{{ page.hero_img_mobile}}">
+		   <img src="{{ site.baseurl }}{{ page.hero_img_desktop}}" class="w-full">
 	 </picture>	 
 </div>
 
-<section id = "portfolio" class="flex flex-col max-w-screen-md mx-4">
+<section id = "portfolio" class="flex flex-col max-w-screen-lg mx-4">
     {{ content }}
 </section>
-<div class="hidden lg:block bg-gradient-to-t from-white via-white relative h-20 w-48 z-10 self-start"></div>
+<div class="hidden lg:block bg-gradient-to-t from-baby_blue via-baby_blue relative h-20 w-48 z-10 self-start"></div>
 
 <!-- Other Projects -->
 <section class = "w-full flex flex-col items-center bg-robin_gray bg-opacity-50 py-10 gap-10 z-0"> 

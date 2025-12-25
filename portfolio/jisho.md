@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: Jisho.org
-hero_img: "jisho/hero.jpeg"
-folder: jisho
+hero_img_desktop: /assets/images/jisho/hero.jpg
+hero_img_mobile: /assets/images/jisho/hero_mobile.png
 
 previous: gazelle
 next: hybrid_pricing

@@ -1,7 +1,8 @@
 ---
 layout: portfolio
 title: Hybrid Pricing
-hero_img: hybrid_pricing/hero.jpg
+hero_img_desktop: /assets/images/hybrid_pricing/hero.jpg
+hero_img_mobile: /assets/images/hybrid_pricing/hero_mobile.png
 folder: hybrid_pricing
 
 previous: gazelle

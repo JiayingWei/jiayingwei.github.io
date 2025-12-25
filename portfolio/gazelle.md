@@ -1,7 +1,8 @@
 ---
 layout: portfolio
 title: Gazelle Shopify Replatform
-hero_img: gazelle/hero.jpg
+hero_img_desktop: /assets/images/gazelle/hero.jpg
+hero_img_mobile: /assets/images/gazelle/hero_mobile.png
 folder: gazelle
 
 previous: hybrid_pricing
