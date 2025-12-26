@@ -5,15 +5,15 @@ hero_img_desktop: /assets/images/gazelle/hero.jpg
 hero_img_mobile: /assets/images/gazelle/hero_mobile.png
 folder: gazelle
 
-previous: hybrid_pricing
-next: waves
+previous: GPYD
+next: postcards
 ---
 
 # Gazelle Shopify Replatform
 
 <div class="flex flex-row flex-wrap gap-2 mt-4 text-sm font-serif ">
     {% for tag in site.data.portfolio.gazelle.tags %}
-        <p class="text-electric_purple bg-robin_gray rounded-sm px-2">{{ tag }}</p>
+        <p class="text-electric_purple bg-white rounded-sm px-2">{{ tag }}</p>
     {% endfor %}
 </div> 
 

@@ -19,11 +19,13 @@
       @apply text-xl font-normal leading-relaxed;
     }
 
-
-
     #portfolio > p, #portfolio > img{
-        @apply my-4 text-lg;
+        @apply my-4 text-lg self-center;
       }
+
+    #portfolio > p {
+      @apply w-full;
+    }
 
     #portfolio > ol > li, #portfolio > ul > li {
         @apply my-1 text-lg;

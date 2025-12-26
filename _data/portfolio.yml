@@ -1,10 +1,19 @@
-# rebrand:
-#   order: 4
-#   tags: [Branding, Website, Illustration]
-#   title: BitGym Rebrand
-#   description: Fitness app for the wanderluster
-#   thumbnail: rebrand_thumb.jpg
-#   url: rebrand.html
+EPYD:
+  order: 8
+  tags: [2025, UI+UX Design]
+  title: "Learning through iteration: “Price Your Device” Widget"
+  description: Testing assumptions on speed, trust, and conversion				
+  thumbnail: EPYD/EPYD_thumb.png
+  url: EPYD.html
+
+GPYD:
+  order: 7
+  tags: [2025, Design Systems]
+  title: "Leveraging Figma Variables: From Single Brand to a Shared System"
+  description: Extending our Pricing widget to another brand				
+  thumbnail: GPYD/GPYD_thumb.png
+  url: GPYD.html
+
 gazelle:
   order: 6
   tags: [2024, UI+UX Design, E-Commerce]
@@ -12,13 +21,7 @@ gazelle:
   description: Redesign of E-commerce site for used & refurbished phones				
   thumbnail: thumb_gazelle.png
   url: gazelle.html
-hybrid_pricing:
-  order: 5
-  tags: [2023, UI+UX Design, User Research]
-  title: ecoATM Hybrid Pricing
-  description: Pricing strategy for smartphone buying kiosks				
-  thumbnail: thumb_hybrid_pricing.png
-  url: hybrid_pricing.html
+
 postcards:
   order: 4
   tags: [2022, illustrations]
@@ -26,6 +29,14 @@ postcards:
   description: A series of illustrations made for the BitGym App
   thumbnail: thumb_postcards.png
   url: postcards.html
+
+# hybrid_pricing:
+#   order: 5
+#   tags: [2023, UI+UX Design, User Research]
+#   title: ecoATM Hybrid Pricing
+#   description: Pricing strategy for smartphone buying kiosks				
+#   thumbnail: thumb_hybrid_pricing.png
+#   url: hybrid_pricing.html
 # buskers:
 #   order: 3
 #   tags: [2020, User Research, UI+UX Design, Website]
@@ -47,4 +58,10 @@ postcards:
 #   description: Modern redesign of a Japanese dictionary
 #   thumbnail: thumb_jisho.png
 #   url: jisho.html
-
+# rebrand:
+#   order: 4
+#   tags: [Branding, Website, Illustration]
+#   title: BitGym Rebrand
+#   description: Fitness app for the wanderluster
+#   thumbnail: rebrand_thumb.jpg
+#   url: rebrand.html

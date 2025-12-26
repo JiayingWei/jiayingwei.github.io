@@ -5,22 +5,21 @@ hero_img_desktop: /assets/images/EPYD/EPYD-1.png
 hero_img_mobile: /assets/images/EPYD/EPYD-1.png
 folder: EPYD
 
-previous: gazelle
-next: hybrid_pricing
+previous: GPYD
+next: gazelle
 ---
 
 # Learning through iteration: “Price Your Device” Widget
 
-
 <div class="flex flex-row flex-wrap gap-2 mt-4 text-sm font-serif ">
-    {% for tag in site.data.portfolio.buskers.tags %}
-        <p class="text-electric_purple bg-robin_gray rounded-sm px-2">{{ tag }}</p>
+    {% for tag in site.data.portfolio.EPYD.tags %}
+        <p class="text-electric_purple bg-white rounded-sm px-2">{{ tag }}</p>
     {% endfor %}
 </div> 
 
 ecoATM’s flagship product is a kiosk that will buy your old phone or tablet. In just minutes the kiosk inspects your device’s condition and pay you in cash on the spot. We offer convenience and speed over more DIY options like listing your device on Ebay or Facebook marketplace.
 
-<img src="{{ site.baseurl }}/assets/images/EPYD/EPYD-2.png" alt="image of user at a kiosk">
+<img src="{{ site.baseurl }}/assets/images/EPYD/EPYD-2.png" class="rounded-2xl" alt="woman placing phone into kiosk evaluation door">
 
 While a large majority of ecoATM users (88%) go directly to a Kiosk and get an estimate there, a smaller cohort of users prefer to get a price online before going to a kiosk. We found that these users who price their devices online, sell us devices that are more desirable in the secondhand device market. So despite making up only 12% of our user base, the devices they sell contribute to 25% of our kiosk revenue.
 
@@ -36,7 +35,7 @@ We believed that the slow load times and step-by-step nature of the widget was c
 
 In our first iteration we wanted to just prove out the concept without doing a total overhaul. I used components from our existing system to design a single page pricing widget. We also made the Brands & Model field a searchable drop-down so you didn’t have to scroll a long list
 
-<img src="{{ site.baseurl }}/assets/images/EPYD/EPYD-5.png" alt="Version 1 Single Page Widget">
+<img src="{{ site.baseurl }}/assets/images/EPYD/EPYD-5.png" alt="Version 1 Single Page Widget" class="md:max-w-2xl mx-auto">
 
 We ran this single page pricing widget against our existing pricing widget in a A/B test, and we were kind of surprised by the result. The single page version did not result in more drop-off code generation than its step-by-step counterpart. In fact it performed approximately the same.   
 I have a few hypothesis about this result:
@@ -62,4 +61,4 @@ I have a few guesses on why version 2 performed better than version 1:
 1. The new widget looked nicer, which helped build trust with our users. People are more willing to sell to us because we look more reputable  
 2. The new widget was much faster, because we had more engineering resources we were able to significantly speed up the experience from version 1
 
-The added bonus of turning our pricing tool into a single page widget was that we were able to use it for our other business venture, [Gazelle.com](http://Gazelle.com). Click here to see how I handled extending our widget to a different brand.
+The added bonus of turning our pricing tool into a single page widget was that we were able to use it for our other business venture, [Gazelle.com](http://Gazelle.com). Click [here]({{ site.baseurl }}GPYD) to see how I handled extending our widget to a different brand.

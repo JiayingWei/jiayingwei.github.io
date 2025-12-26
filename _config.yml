@@ -9,6 +9,8 @@ url: ""
 baseurl: ""
 
 exclude:
+  - assets/images/archive
+  - portfolio/archive
   - bin/
   - vendor/
   - Gemfile
