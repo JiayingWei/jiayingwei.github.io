@@ -4,7 +4,7 @@ title: Playing go
 folder: go
 ---
 
-# Playing Go
+# Organizing Go Meetups
 
 In my free time I like to play go. Go is one of the oldest board games in the world still played in its original form. It’s simple to learn, but is deep in strategy.
 

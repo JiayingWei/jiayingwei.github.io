@@ -9,7 +9,7 @@ previous: GPYD
 next: gazelle
 ---
 
-# Learning through iteration: “Price Your Device” Widget
+# Learning through Iteration: “Price Your Device” Widget
 
 <div class="flex flex-row flex-wrap gap-2 mt-4 text-sm font-serif ">
     {% for tag in site.data.portfolio.EPYD.tags %}

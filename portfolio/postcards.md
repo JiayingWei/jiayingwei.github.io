@@ -9,7 +9,7 @@ previous: gazelle
 next: EPYD
 ---
 
-# Postcards from...
+# Postcards From...
 
 <div class="flex flex-row flex-wrap gap-2 mt-4 text-sm font-serif ">
     {% for tag in site.data.portfolio.postcards.tags %}
