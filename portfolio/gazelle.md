@@ -20,10 +20,6 @@ next: postcards
 ## Background
 When Gazelle was launched in 2008, it was one of the first e-commerce websites that sold used & refurbished phones. Because of that we’ve had a good head start in building our brand and developing a base of loyal customers.
 
-However, since then the landscape for electronic re-commerce has shifted quite a bit, from independent competitors like Backmarket & Reebelo popping up, as well as larger tech giants like Amazon & Ebay getting into the game.
-
-Increasingly, Gazelle started to look more and more dated, as our large amount of tech debt made it difficult to revamp our website. 
-
 <img src="{{ site.baseurl }}/assets/images/gazelle/1.png" 
     data-default-src="{{ site.baseurl }}/assets/images/gazelle/1.png"
     data-alt-src="{{ site.baseurl }}/assets/images/gazelle/1 hover.png"
@@ -32,7 +28,13 @@ Increasingly, Gazelle started to look more and more dated, as our large amount o
 
 <p class="text-electric_purple text-center font-bold">This is what our site looked like in April of 2024 (click to see the new homepage)</p>
 
+However, since then the landscape for electronic re-commerce has shifted quite a bit, from independent competitors like Backmarket & Reebelo popping up, as well as larger tech giants like Amazon & Ebay getting into the game.
+
+Increasingly, Gazelle started to look more and more dated, as our large amount of tech debt made it difficult to revamp our website. 
+
 In 2023, Shopify had announced that it was deprecating support for the existing theme that Gazelle was running on. This meant that if we didn’t switch themes before the deadline, we could risk our store shutting down. This finally gave us the push to migrate our theme, fix our tech debt, and bring Gazelle back into the race with our competitors. 
+
+**Goal:** Migrate all the base functionality of Gazelle.com to a modern Shopify theme.
 
 ## What made this project difficult?
 

@@ -29,7 +29,7 @@ Featured in this postcard is the Senso-ji gate located in Asakusa, Tokyo. Soak u
 <img src="{{ site.baseurl }}/assets/images/postcards/asakusa.jpg" alt="Bitguy visits Sensoji gate in Asakusa, Tokyo">
 
 ## Beach run in Cabo
-Los Cabo’s most popular beach is a never-ending stretch of beach towels, sun umbrellas, and beach volleyball. Enjoy the course golden sand and feel free to stop for a refreshing drink after your run on the beach.
+Los Cabo’s most popular beach is a never-ending stretch of beach towels, sun umbrellas, and beach volleyball. Enjoy the coarse golden sand and feel free to stop for a refreshing drink after your run on the beach.
 
 <img src="{{ site.baseurl }}/assets/images/postcards/cabo.jpg" alt="Bitguy waves from a boat as you watch from a beach in Los Cabos">
 

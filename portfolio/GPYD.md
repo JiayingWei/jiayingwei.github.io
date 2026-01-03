@@ -19,11 +19,13 @@ next: gazelle
 
 In the summer of 2025 we launched our new phone pricing widget on [ecoATM.com](http://ecoATM.com). This single page version replaced an older multi-page widget, which improved our price lock conversion by 2% or 73k net new drop-off codes generated. I talk about the design process for this [here]({{ site.baseurl }}/portfolio/EPYD/). 
 
-In addition to our kiosk business, the company also owns [Gazelle.com](http://Gazelle.com), our e-commerce store where we both buy and sell secondhand devices. We wanted to bring this new pricing experience to Gazelle in order to realize some of the same improvements in conversion.
+In addition to our kiosk business, the company also owns [Gazelle.com](http://Gazelle.com), our e-commerce store where we both buy and sell secondhand devices. We wanted to bring this new pricing experience to Gazelle in order to realize some of the same improvements in conversion. 
+
+**Goal:** Extend the ecoATM pricing widget to replace the existing price your device flow on Gazelle.com
+
+To do this, it was important that we re-skinned the ecoATM experience with Gazelle’s brand identity. Both brands have their own unique colors and fonts so it wasn’t as simple as just copying and pasting the designs from one website to the other. Here's example ads for the two different brands, ecoATM is more serious & eco forward, while Gazelle is a little more fun & quirky.
 
 <img src="{{ site.baseurl }}/assets/images/GPYD/GPYD-2.png" alt="ecoatm vs Gazelle marketing">
-
-To do that, it was important that we re-skinned the ecoATM experience with Gazelle’s brand identity. Both brands have their own unique colors and fonts so it wasn’t as simple as just copying and pasting the designs from one website to the other. 
 
 In addition to the reskin, it was also important that I built these designs so that in the future we could easily add new features without having to do the tedious work of duplicating and editing the colors & typography for each brand.
 

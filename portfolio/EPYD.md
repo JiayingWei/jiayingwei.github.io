@@ -21,14 +21,15 @@ ecoATM’s flagship product is a kiosk that will buy your old phone or tablet. I
 
 <img src="{{ site.baseurl }}/assets/images/EPYD/EPYD-2.png" class="rounded-2xl" alt="woman placing phone into kiosk evaluation door">
 
-While a large majority of ecoATM users (88%) go directly to a Kiosk and get an estimate there, a smaller cohort of users prefer to get a price online before going to a kiosk. We found that these users who price their devices online, sell us devices that are more desirable in the secondhand device market. So despite making up only 12% of our user base, the devices they sell contribute to 25% of our kiosk revenue.
+While a large majority of ecoATM users (88%) go directly to a Kiosk and get an estimate there, a smaller cohort of users prefer to get a price online before going to a kiosk. We found that these users sell us devices that are more desirable in the secondhand device market. So despite making up only 12% of our user base, the devices they sell contribute to 25% of our kiosk revenue.
 
-**Goal:** We wanted to streamline our online “Price Your Device” widget to capture more of these premium devices.   
+**Goal:** Streamline our online “Price Your Device” widget to capture more of these premium devices.   
 
 <img src="{{ site.baseurl }}/assets/images/EPYD/EPYD-3.png" alt="2023 pyd imagery">
 
 
-Our previous “Price Your Device” widget spanned multiple pages and took you step-by-step through selecting your Brand, Model, Storage, Carrier, and Condition. We would use that information to give an offer, and if they accepted they would get a drop-off code they could enter at the kiosk.   
+Our previous “Price Your Device” widget spanned multiple pages and took you step-by-step through selecting your Brand, Model, Storage, Carrier, and Condition. We would use that information to give an offer, and if they accepted they would get a drop-off code they could enter at the kiosk. 
+
 We believed that the slow load times and step-by-step nature of the widget was causing users to drop-off at various points in the funnel. Our hypothesis was that by refactoring the widget to a single page application, it would speed up run time, decrease funnel drop-off and increase drop-off code generation. 
 
 <img src="{{ site.baseurl }}/assets/images/EPYD/EPYD-4.png" alt="2023 pyd imagery">
