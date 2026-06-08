@@ -1,3 +1,11 @@
+ai-usage:
+  order: 9
+  tags: [2026, AI, UI+UX Design]
+  title: "How I'm Using AI as a Design Tool"
+  description: Real examples of how I'm building with AI
+  thumbnail: ai-tooling/ai tooling thumb.png
+  url: ai-tooling.html
+
 EPYD:
   order: 8
   tags: [2025, UI+UX Design]
