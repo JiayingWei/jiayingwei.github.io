@@ -57,6 +57,9 @@ I don't always use every part of the framework, here was my starting prompt:
 <p class="text-lg my-4 leading-relaxed">To build this prototype I accessed the codebase for our "Price Your Device" tool to create a production-accurate prototype that is able to call our API.</p>
 <p class="text-lg my-4 leading-relaxed">I then fed it the code from my Figma Make prototype to replicate the new feature (progress bar + confetti).</p>
 <p class="text-lg my-4 leading-relaxed">This allows testing interactions with real devices and prices called from our API. In the case of this prototype, pricing a device with value will toss 💰 💵 🤑 confetti vs. pricing a device that is recyclable will toss ♻️ 🌎 confetti instead.</p>
+
+<p class="text-lg my-4 leading-relaxed">I've been experimenting with showcasing new interactions by using these coded prototypes, and have gotten a positive response from my product and engineering teammates. In the future I want to test using AI prototypes to demonstrate entire user journeys.</p>
+
 </div>
 <video controls class="rounded-lg shrink-0 mx-auto" style="width: 300px;">
     <source src="{{ site.baseurl }}/assets/images/ai-tooling/Prototyping%20with%20Claude%20Code.mp4" type="video/mp4">
@@ -65,15 +68,21 @@ I don't always use every part of the framework, here was my starting prompt:
 
 ---
 
-## Building and deploying landing pages with a custom update tool {#landing-pages}
+## Building and deploying landing pages {#landing-pages}
 
 Our website is built on top of Shopify, and over the years we've used PageFly (a drag and drop page builder) as the primary method of building landing pages. We found it finicky, getting pages to match the Figma designs closely was a real challenge.
 
-When the team member handling this work moved on, I took it as a chance to explore create these landing pages using code. After creating the HTML files, we found the easiest way to upload these pages was still through PageFly. This time by pasting the HTML into its HTML block.
+When the team member handling this work moved on, I took it as a chance to explore building webpages with Claude using existing designs in Figma that I had created.
 
-One issue I came upon while previewing pages was that URLs would break unless manually adjusted between local, QA, and production environments. I created a copy-paste tool that made all these adjustments for me, so I didn't have to do any manual editing.
+In my initial prompt.md I included instructions on
+- Our tech stack (in this case vanilla HTML, plain CSS, and vanilla JS)
+- All of our design tokens (colors, fonts, and padding)
+- Responsive breakpoints
+- And described each of the sections that were reused from page to page.
 
-<img src="{{ site.baseurl }}/assets/images/ai-tooling/Creating%20Landing%20Pages.jpg" alt="PageFly Copy Tool showing QA and PROD copy buttons for each page" class="mx-auto block" style="max-width: 750px; width: 100%;">
+After some tweaking we were able to get our "[How to prepare](https://www.ecoatm.com/pages/how-to-prepare-2)" webpages almost entirely similar to our Figma designs, saving valuable time for our front-end engineers. 
+
+<img src="{{ site.baseurl }}/assets/images/ai-tooling/Creating%20Landing%20Pages.jpg" alt="video-transcriber Claude Skill showing the three-stage transcription pipeline" class="mx-auto block" style="max-width: 1000px; width: 100%;">
 
 ---
 
