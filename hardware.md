@@ -41,8 +41,8 @@ permalink: /hardware/
 {% include for_fun.html %}
 
 <!-- Hardware project modal -->
-<div id="hardware-modal" class="hidden fixed inset-0 z-50 bg-black bg-opacity-75 items-center justify-center px-4 py-10" onclick="closeHardwareModal()">
-	<div class="bg-white rounded-3xl overflow-y-auto max-w-3xl w-full flex flex-col gap-4 px-10 pb-10 relative" style="padding-top: 56px; max-height: 90vh;" onclick="event.stopPropagation()">
+<div id="hardware-modal" class="hidden fixed inset-0 z-50 bg-black bg-opacity-75 items-center justify-center sm:px-4 sm:py-10" onclick="closeHardwareModal()">
+	<div id="hardware-modal-panel" class="bg-white rounded-none sm:rounded-3xl overflow-y-auto max-w-none sm:max-w-3xl w-full h-full sm:h-auto flex flex-col gap-4 sm:px-10 pb-10 relative" style="padding-top: 56px;" onclick="event.stopPropagation()">
 
 		<button type="button" onclick="closeHardwareModal()" aria-label="Close" class="absolute z-10 hover:opacity-75" style="top: 16px; right: 16px;">
 			<img src="{{ site.baseurl }}/assets/images/icons/close-x.svg" alt="" class="h-6 w-6">
@@ -53,23 +53,25 @@ permalink: /hardware/
 			<img id="hardware-modal-image" src="" alt="" class="hidden absolute inset-0 w-full h-full object-cover">
 		</div>
 
-		<div class="flex items-center justify-between w-full gap-4">
-			<h2 id="hardware-modal-title" class="font-semibold text-2xl"></h2>
-			<div class="flex gap-4 flex-shrink-0">
-				<button type="button" id="hardware-modal-prev" onclick="hardwarePrevSlide()" aria-label="Previous" class="bg-periwinkle rounded-full h-12 w-12 flex items-center justify-center hover:opacity-90">
-					<img src="{{ site.baseurl }}/assets/images/icons/chevron-left.svg" alt="" class="h-6 w-6">
-				</button>
-				<button type="button" id="hardware-modal-next" onclick="hardwareNextSlide()" aria-label="Next" class="bg-periwinkle rounded-full h-12 w-12 flex items-center justify-center hover:opacity-90">
-					<img src="{{ site.baseurl }}/assets/images/icons/chevron-right.svg" alt="" class="h-6 w-6">
-				</button>
+		<div class="flex flex-col gap-4 w-full px-4 sm:px-0">
+			<div class="flex items-center justify-between w-full gap-4">
+				<h2 id="hardware-modal-title" class="font-semibold text-2xl"></h2>
+				<div class="flex gap-4 flex-shrink-0">
+					<button type="button" id="hardware-modal-prev" onclick="hardwarePrevSlide()" aria-label="Previous" class="bg-periwinkle rounded-full h-12 w-12 flex items-center justify-center hover:opacity-90">
+						<img src="{{ site.baseurl }}/assets/images/icons/chevron-left.svg" alt="" class="h-6 w-6">
+					</button>
+					<button type="button" id="hardware-modal-next" onclick="hardwareNextSlide()" aria-label="Next" class="bg-periwinkle rounded-full h-12 w-12 flex items-center justify-center hover:opacity-90">
+						<img src="{{ site.baseurl }}/assets/images/icons/chevron-right.svg" alt="" class="h-6 w-6">
+					</button>
+				</div>
 			</div>
-		</div>
 
-		<div class="flex items-start justify-between w-full gap-4 flex-wrap">
-			<p id="hardware-modal-skills" class="text-lg"></p>
-			<p id="hardware-modal-team" class="text-lg whitespace-no-wrap"></p>
+			<div class="flex items-start justify-between w-full gap-4 flex-wrap">
+				<p id="hardware-modal-skills" class="text-lg"></p>
+				<p id="hardware-modal-team" class="hidden sm:inline-block text-lg whitespace-no-wrap"></p>
+			</div>
+			<p id="hardware-modal-description" class="text-lg"></p>
 		</div>
-		<p id="hardware-modal-description" class="text-lg"></p>
 	</div>
 </div>
 

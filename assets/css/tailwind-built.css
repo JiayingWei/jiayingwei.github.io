@@ -702,6 +702,18 @@ html {
   font-display: swap;
 }
 
+/* Hardware modal: full-screen sheet on mobile, capped-height card on larger screens */
+
+#hardware-modal-panel {
+  max-height: 100vh;
+}
+
+@media (min-width: 640px) {
+  #hardware-modal-panel {
+    max-height: 90vh;
+  }
+}
+
 /* Spotlight overlay with CSS variables */
 
 .spotlight-wrapper::before {
