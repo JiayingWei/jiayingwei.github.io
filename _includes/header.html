@@ -1,15 +1,24 @@
-{% if page.url == "/" %}
+{% assign is_hardware = false %}
+{% if page.url contains "/hardware" %}{% assign is_hardware = true %}{% endif %}
+
 <div id = "header" class="bg-baby_blue text-electric_purple px-4 fixed w-full md:px-10 top-0 h-20 z-50 flex flex-row items-center">
+
+    {% if is_hardware %}
+        <a href="{{ site.baseurl }}/hardware/" class="text-3xl sm:text-4xl font-bold">JIAYING WEI</a>
     {% else %}
- <div id = "header" class="bg-baby_blue text-electric_purple px-4 fixed w-full md:px-10 top-0 h-20 z-50 flex flex-row items-center">
- {% endif %}
-    
-    <a href = "/" {% if page.url == "/" %}id="site-name" class="text-3xl sm:text-4xl font-bold opacity-0 transition duration-700"{% else %}class="text-3xl sm:text-4xl font-bold"{% endif %}>JIAYING WEI</a>
-    
+        <a href = "/" {% if page.url == "/" %}id="site-name" class="text-3xl sm:text-4xl font-bold opacity-0 transition duration-700"{% else %}class="text-3xl sm:text-4xl font-bold"{% endif %}>JIAYING WEI</a>
+    {% endif %}
+
     <div class="flex flex-row flex-1 md:gap-x-10 gap-x-4 justify-end">
+        {% unless is_hardware %}
         <a href="{{ site.baseurl }}/#portfolio" class="button hidden sm:flex px-0 bg-transparent">Work</a>
         <!-- <a href="{{ site.baseurl }}/#fun" class="button hidden sm:flex px-0 bg-transparent">Fun</a> -->
         <a href="https://www.linkedin.com/in/jiayingwei/" target="_blank" class="button hidden sm:flex px-0 bg-transparent">LinkedIn</a>
-        <a href="{{ site.baseurl }}/assets/images/resume.pdf" class="button hover:-translate-y-2 hover:shadow-md duration-200"  target="_blank">Resume</a>
+        {% endunless %}
+        {% if is_hardware %}
+        <a href="{{ site.baseurl }}/assets/images/hardware-resume.pdf" class="button hover:-translate-y-2 hover:shadow-md duration-200" target="_blank">Resume</a>
+        {% else %}
+        <a href="{{ site.baseurl }}/assets/images/resume.pdf" class="button hover:-translate-y-2 hover:shadow-md duration-200" target="_blank">Resume</a>
+        {% endif %}
     </div>
 </div>

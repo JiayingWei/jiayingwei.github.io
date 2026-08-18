@@ -18,7 +18,8 @@ module.exports = {
           lavender: '#E6DFFF',
           grad_purple:'#C7BAF2',
           grad_blue: '#C6DEE4',
-          passion_purple:'#483877'
+          passion_purple:'#483877',
+          periwinkle: '#8D95FF'
             },
         height: {
           '75vh':'75vh',
@@ -27,7 +28,8 @@ module.exports = {
           '2xl': '1536px'
         },
         opacity: {
-          '10':'0.1'
+          '10':'0.1',
+          '40':'0.4'
         }
         },
     },

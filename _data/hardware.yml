@@ -1,0 +1,53 @@
+standing-desk:
+  order: 1
+  title: Standing Desk
+  skills: "CAD, MIG Welding, CNC router"
+  team: "Solo"
+  description: "I created this custom standing desk for a coworker at Creative Machines. I designed the desk in CAD, created the technical drawings, welded the frame out of square tubing, and created custom CNC routed cabinetry."
+  folder: standing-desk
+  youtube:
+
+tesla-turbine:
+  order: 2
+  title: Machining a Tesla Turbine
+  skills: "Manual & CNC Mill, Manual Lathe, Waterjet, Assembly"
+  team: "Solo"
+  description: "In Fundamentals of Machine Shop Operation our final project was to machine a fully functional Tesla Turbine. I machined each part (turbine body, pulley, shaft, disks, etc) to tight tolerances as specified by the engineering drawings, and assembled it."
+  folder: tesla-turbine
+  youtube: sWxi6ZQzpWo
+
+lasercut-skateboard:
+  order: 3
+  title: Laser Cut Skateboard
+  skills: "Laser Cutting, Fiberglass & Epoxy"
+  team: "2"
+  description: "To create this skateboard we laser cut multiple panels of MDF and glued them together. We then epoxied fiberglass onto the body to create a sturdy surface to skate on."
+  folder: lasercut-skateboard
+  youtube: 7PXWUDzsEs8
+
+paper-airplane:
+  order: 4
+  title: Paper Airplane Folding Machine
+  skills: "CAD, Laser Cutting, Prototyping"
+  team: "5"
+  description: "We created this paper airplane folding machine from salvaged printer parts, and laser cut acrylic. We designed each module in the machine to make a specific fold. I was in charge of prototyping the mechanism to make the initial back fold, and two triangle folds."
+  folder: paper-airplane
+  youtube: dCWz8AefQEs
+
+kraken:
+  order: 5
+  title: "Kraken Kinetic Sculpture"
+  skills: "CAD, 3D Printing, Silicone Casting, Assembly"
+  team: "6"
+  description: "We designed this Kraken kinetic sculpture to use multiple rapid prototyping fabrication methods. We 3D printed the linkages, cast the silicone in a 3D printed mold, and used various sheetmetal bending & cutting techniques to create the boat and casing."
+  folder: kraken
+  youtube: Z7yXaY5r3HQ
+
+moon-clock:
+  order: 6
+  title: "Moon Clock"
+  skills: "CAD, Manual Mill, Manual Lathe, Assembly"
+  team: "6"
+  description: "We designed this moon clock sculpture to use traditional fabrication methods (manual mill & manual lathe). It is meant to visualize the Earth & Moon's orbit around our sun."
+  folder: moon-clock
+  youtube: b0Txt5RFzNY
