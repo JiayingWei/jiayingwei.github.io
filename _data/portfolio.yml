@@ -1,3 +1,11 @@
+ecoatm-app:
+  order: 10
+  tags: [2026, UI+UX Design, AI]
+  title: "Show Me the Money: Optimizing ecoATM’s “Price Your Device” Funnel"
+  description: A small reorder with an outsized impact
+  thumbnail: ecoatm-app/ecoatm-app_thumb.jpg
+  url: ecoatm-app.html
+
 ai-usage:
   order: 9
   tags: [2026, AI, UI+UX Design]

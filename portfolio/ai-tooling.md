@@ -3,7 +3,7 @@ layout: portfolio
 title: "How I'm Using AI as a Design Tool"
 folder: ai-tooling
 
-previous: EPYD
+previous: ecoatm-app
 next: GPYD
 ---
 

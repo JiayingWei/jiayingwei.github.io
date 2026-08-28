@@ -6,11 +6,11 @@ layout: default
 {% if page.hero_img_desktop %}
 	<div class="border-b border-gray-300 m-0 z-10 overflow-hidden flex items-center">
 		<picture>
-			<source 
+			<source
 			media="(min-width: 650px)"
 			srcset="{{ site.baseurl }}{{ page.hero_img_desktop}}">
-			<source 
-			srcset="{{ site.baseurl }}{{ page.hero_img_desktop}}">
+			<source
+			srcset="{{ site.baseurl }}{{ page.hero_img_mobile}}">
 			<img src="{{ site.baseurl }}{{ page.hero_img_desktop}}" class="w-full">
 		</picture>	 
 	</div>

@@ -19,7 +19,9 @@ module.exports = {
           grad_purple:'#C7BAF2',
           grad_blue: '#C6DEE4',
           passion_purple:'#483877',
-          periwinkle: '#8D95FF'
+          periwinkle: '#8D95FF',
+          card_lavender: '#D8DAF8',
+          label_purple: '#6032E3'
             },
         height: {
           '75vh':'75vh',
