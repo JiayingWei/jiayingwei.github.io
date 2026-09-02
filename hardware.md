@@ -11,7 +11,7 @@ permalink: /hardware/
 			<span class="font-medium">I’m a </span><span class="font-extrabold">Product Designer</span><span class="font-medium"> looking to pivot into a </span><span class="font-extrabold">Hardware Technician</span><span class="font-medium"> role.</span>
 		</p>
 		<p class="text-xl md:text-3xl font-medium leading-snug">
-			After 8 years of designing digital experiences for people on websites & apps, I’m looking to get back into my maker roots!
+			After some years of designing digital experiences for people on websites & apps, I’m looking to get back into my maker roots!
 		</p>
 	</div>
 </section>
