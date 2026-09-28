@@ -1,3 +1,20 @@
+bird-detector:
+  order: 0
+  title: Backyard Bird Detector
+  skills: "Raspberry Pi, Electronics, Python, Prototyping"
+  team: "Solo"
+  description: "I built a backyard bird detector using a Raspberry Pi, USB microphone, and LCD display. It listens for bird calls and identifies them using BirdNET, a bird-sound recognition model from the Cornell Lab of Ornithology. When a bird shows up, the display tells me what it heard so I can grab my binoculars."
+  folder: bird-detector
+  youtube:
+  video_file: /assets/videos/hardware/bird-detector.mp4
+  video_position: 4
+  image_alt:
+    thumbnail.jpg: "A backyard photo with a black bird silhouette and question mark graphic overlaid, representing an unidentified bird call."
+    1.jpg: "A photo of the backyard with a black bird silhouette and question mark graphic overlaid, captioned 'Problem: As a beginner birdwatcher, I want to know which birds are visiting my backyard.'"
+    2.jpg: "Close-up of the bird detector's LCD screen, mounted on top of its Raspberry Pi enclosure, showing a recent detection: American Crow, 0 minutes ago, at 58% confidence, captioned 'Solution: I built a bird detector that listens ambiently to the sounds in my backyard, and displays what bird it thinks it hears.'"
+    3.jpg: "Diagram of the project's components: a Raspberry Pi 3 Model B+, a 16x2 LCD display, and a USB mini microphone under Hardware; BirdNET-Pi and Tailscale under Software."
+    5.jpg: "Screenshot of the BirdNET-Pi web interface showing a spectrogram of a Red-shouldered Hawk call detected at 90% confidence, alongside a note about using Tailscale to monitor the detector remotely from off the home network."
+
 standing-desk:
   order: 1
   title: Standing Desk

@@ -24,11 +24,12 @@ permalink: /hardware/
 		{% for entry in site.data.hardware %}
 			{% assign key = entry[0] %}
 			{% assign project = entry[1] %}
+			{% assign thumb_alt = project.image_alt["thumbnail.jpg"] | default: project.title %}
 
 			<button type="button"
 				class="bg-white flex flex-col text-left shadow-xl transition duration-200 transform hover:scale-110 rounded-3xl overflow-hidden cursor-pointer"
 				onclick="openHardwareModal('{{ key }}')">
-				<img src="{{ site.baseurl }}/assets/images/hardware/{{ project.folder }}/thumbnail.jpg" class="w-full h-64 object-cover" alt="{{ project.title }}">
+				<img src="{{ site.baseurl }}/assets/images/hardware/{{ project.folder }}/thumbnail.jpg" class="w-full object-cover" style="aspect-ratio: 16 / 9;" alt="{{ thumb_alt }}">
 				<div class="flex flex-col gap-4 p-6">
 					<h2 class="font-semibold text-2xl">{{ project.title }}</h2>
 					<p class="text-lg"><span class="font-bold">Skills:</span> {{ project.skills }}</p>
@@ -48,8 +49,9 @@ permalink: /hardware/
 			<img src="{{ site.baseurl }}/assets/images/icons/close-x.svg" alt="" class="h-6 w-6">
 		</button>
 
-		<div id="hardware-modal-media" class="relative w-full bg-black overflow-hidden" style="aspect-ratio: 8 / 5;">
+		<div id="hardware-modal-media" class="relative w-full bg-black overflow-hidden" style="aspect-ratio: 16 / 9;">
 			<iframe id="hardware-modal-video" class="hidden absolute inset-0 w-full h-full" src="" title="Project video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<video id="hardware-modal-local-video" class="hidden absolute inset-0 w-full h-full object-cover" controls playsinline muted preload="none"></video>
 			<img id="hardware-modal-image" src="" alt="" class="hidden absolute inset-0 w-full h-full object-cover">
 		</div>
 
@@ -88,7 +90,9 @@ permalink: /hardware/
 		"team": {{ project.team | default: "" | jsonify }},
 		"description": {{ project.description | default: "" | jsonify }},
 		"youtube": {{ project.youtube | default: "" | jsonify }},
-		"images": [{% for img in proj_images %}{{ img.path | prepend: site.baseurl | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]
+		"video_file": {{ project.video_file | default: "" | jsonify }},
+		"video_position": {{ project.video_position | default: 1 | jsonify }},
+		"images": [{% for img in proj_images %}{% assign img_alt = project.image_alt[img.name] | default: project.title %}{ "src": {{ img.path | prepend: site.baseurl | jsonify }}, "alt": {{ img_alt | jsonify }} }{% unless forloop.last %},{% endunless %}{% endfor %}]
 	}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]{% endcapture %}
