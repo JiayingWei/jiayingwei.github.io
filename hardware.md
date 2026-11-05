@@ -8,11 +8,34 @@ permalink: /hardware/
 	<div class="max-w-screen-xl flex flex-col py-16 md:py-24 w-full gap-6 px-4 sm:px-10 xl:px-0">
 		<h1 class="text-4xl md:text-6xl font-bold text-electric_purple">Hi I’m Jiaying</h1>
 		<p class="text-xl md:text-3xl leading-snug">
-			<span class="font-medium">I’m a </span><span class="font-extrabold">Product Designer</span><span class="font-medium"> looking to pivot into a </span><span class="font-extrabold">Hardware Technician</span><span class="font-medium"> role.</span>
+			<span class="font-medium">I’m a </span><span class="font-extrabold">Product Designer</span><span class="font-medium"> looking to pivot into an </span><span class="font-extrabold">Engineering Technician</span><span class="font-medium"> role.</span>
 		</p>
 		<p class="text-xl md:text-3xl font-medium leading-snug">
 			After some years of designing digital experiences for people on websites & apps, I’m looking to get back into my maker roots!
 		</p>
+
+		<!-- What I bring -->
+		<div class="flex flex-col gap-6 mt-6 md:mt-10">
+			<h2 class="text-2xl md:text-3xl font-bold text-electric_purple">What I bring from design to technician work</h2>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-10">
+
+				<div class="bg-white rounded-3xl shadow-xl p-6 flex flex-col gap-3">
+					<h3 class="font-semibold text-2xl">Detail Oriented</h3>
+					<p class="text-lg">As a designer, I have an eye for detail. I’m the one who catches the 2px misalignment or the edge case nobody tested.</p>
+				</div>
+
+				<div class="bg-white rounded-3xl shadow-xl p-6 flex flex-col gap-3">
+					<h3 class="font-semibold text-2xl">Proactive Communicator</h3>
+					<p class="text-lg">Day to day, I work with engineering, product, and QA to flag problems early before they become blockers.</p>
+				</div>
+
+				<div class="bg-white rounded-3xl shadow-xl p-6 flex flex-col gap-3">
+					<h3 class="font-semibold text-2xl">Software Savvy</h3>
+					<p class="text-lg">I use AI daily to build coded prototypes. I can find my way around a repo and push code to improve workflows.</p>
+				</div>
+
+			</div>
+		</div>
 	</div>
 </section>
 
